@@ -1,0 +1,368 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|d:\\university\\hkii_25_26\\02\\dbms\\dbms_final\\quanlythuvien\\quanlythuvien\\thuviendbdataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:quanlythuvien\\thuviendbdataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormBai1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormBai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\quanlythuvien\\formbai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:quanlythuvien\\formbai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\quanlythuvien\\formbai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:quanlythuvien\\formbai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai3.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormBai3.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\quanlythuvien\\thuviendbdataset.xsc||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:quanlythuvien\\thuviendbdataset.xsc||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormBai2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\quanlythuvien\\formbai5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:quanlythuvien\\formbai5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormBai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormBai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai4.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormBai4.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\Properties\\Settings.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\Properties\\Settings.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\Properties\\Resources.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\Properties\\Resources.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormMain.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormMain.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai6.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormBai6.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormBai6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormBai5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:QuanLyThuVien\\FormMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\quanlythuvien\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23FD0E58-8523-4DFF-ABE7-458DB6C712E4}|QuanLyThuVien\\DBMS_final.csproj|solutionrelative:quanlythuvien\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThuVienDBDataSet.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\ThuVienDBDataSet.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\ThuVienDBDataSet.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\ThuVienDBDataSet.cs",
+              "RelativeToolTip": "QuanLyThuVien\\ThuVienDBDataSet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:43:02.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThuVienDBDataSet.xsc",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\ThuVienDBDataSet.xsc",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\ThuVienDBDataSet.xsc",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\ThuVienDBDataSet.xsc",
+              "RelativeToolTip": "QuanLyThuVien\\ThuVienDBDataSet.xsc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001612|",
+              "WhenOpened": "2026-06-08T14:26:43.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormBai1.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai1.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai1.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai1.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:31:43.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormBai1.cs [Design]",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai1.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai1.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai1.cs [Design]",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:35:42.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormBai1.Designer.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai1.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai1.Designer.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai1.Designer.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:31:48.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormBai3.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai3.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai3.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai3.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai3.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:02.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormBai3.Designer.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai3.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai3.Designer.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai3.Designer.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai3.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:06.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormBai2.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai2.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai2.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai2.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai2.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:31:54.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormBai2.Designer.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai2.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai2.Designer.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai2.Designer.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:31:57.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormBai4.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai4.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai4.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai4.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai4.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:11.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormBai4.Designer.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai4.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai4.Designer.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai4.Designer.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai4.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:15.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormBai5.Designer.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai5.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai5.Designer.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai5.Designer.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai5.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:28.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\Properties\\Settings.Designer.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "QuanLyThuVien\\Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:33:01.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\Properties\\Resources.Designer.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "QuanLyThuVien\\Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:56.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\Program.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\Program.cs",
+              "RelativeToolTip": "QuanLyThuVien\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:51.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormMain.Designer.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormMain.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormMain.Designer.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormMain.Designer.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormMain.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:47.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormBai6.Designer.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai6.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai6.Designer.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai6.Designer.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai6.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:38.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormBai6.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai6.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai6.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai6.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai6.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:32.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormBai5.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai5.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormBai5.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormBai5.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormBai5.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:32:20.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormMain.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormMain.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormMain.cs",
+              "RelativeToolTip": "QuanLyThuVien\\FormMain.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:30:44.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormMain.cs [Design]",
+              "DocumentMoniker": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormMain.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\FormMain.cs",
+              "ToolTip": "D:\\university\\HKII_25_26\\02\\DBMS\\DBMS_Final\\QuanLyThuVien\\QuanLyThuVien\\FormMain.cs [Design]",
+              "RelativeToolTip": "QuanLyThuVien\\FormMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T12:30:22.561Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 191,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
