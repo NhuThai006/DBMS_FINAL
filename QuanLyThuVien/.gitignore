@@ -1,0 +1,19 @@
+# Bỏ qua thư mục hệ thống của Visual Studio
+.vs/
+**/.vs/
+*.user
+*.suo
+DocumentLayout*.json
+
+# Bỏ qua thư mục Build chứa file nặng (.exe, .dll, .pdb, .cache)
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+
+# Bỏ qua các file rác khác
+*.exe
+*.dll
+*.pdb
+*.cache
+ListAbsolute.txt

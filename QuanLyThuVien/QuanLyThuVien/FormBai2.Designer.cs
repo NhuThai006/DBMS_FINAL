@@ -36,11 +36,6 @@
             this.txtISBN = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnXemThongTin = new Guna.UI2.WinForms.Guna2Button();
             this.dgvSach = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.colISBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTacGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColTuaSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColNgonNgu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColSoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSach)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,12 +109,6 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvSach.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvSach.ColumnHeadersHeight = 38;
-            this.dgvSach.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colISBN,
-            this.colTacGia,
-            this.ColTuaSach,
-            this.ColNgonNgu,
-            this.ColSoLuong});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -159,46 +148,6 @@
             this.dgvSach.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(33)))), ((int)(((byte)(168)))));
             this.dgvSach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSach_CellContentClick);
             // 
-            // colISBN
-            // 
-            this.colISBN.DataPropertyName = "tua_sach";
-            this.colISBN.HeaderText = "Mã ISBN";
-            this.colISBN.MinimumWidth = 6;
-            this.colISBN.Name = "colISBN";
-            this.colISBN.ReadOnly = true;
-            // 
-            // colTacGia
-            // 
-            this.colTacGia.DataPropertyName = "tacgia";
-            this.colTacGia.HeaderText = "Tác giả";
-            this.colTacGia.MinimumWidth = 6;
-            this.colTacGia.Name = "colTacGia";
-            this.colTacGia.ReadOnly = true;
-            // 
-            // ColTuaSach
-            // 
-            this.ColTuaSach.DataPropertyName = "tuasach(none)";
-            this.ColTuaSach.HeaderText = "Tựa sách";
-            this.ColTuaSach.MinimumWidth = 6;
-            this.ColTuaSach.Name = "ColTuaSach";
-            this.ColTuaSach.ReadOnly = true;
-            // 
-            // ColNgonNgu
-            // 
-            this.ColNgonNgu.DataPropertyName = "ngonngu";
-            this.ColNgonNgu.HeaderText = "Ngôn ngữ";
-            this.ColNgonNgu.MinimumWidth = 6;
-            this.ColNgonNgu.Name = "ColNgonNgu";
-            this.ColNgonNgu.ReadOnly = true;
-            // 
-            // ColSoLuong
-            // 
-            this.ColSoLuong.DataPropertyName = "SoLuong";
-            this.ColSoLuong.HeaderText = "Số Lượng";
-            this.ColSoLuong.MinimumWidth = 6;
-            this.ColSoLuong.Name = "ColSoLuong";
-            this.ColSoLuong.ReadOnly = true;
-            // 
             // FormBai2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -224,10 +173,5 @@
         private Guna.UI2.WinForms.Guna2TextBox txtISBN;
         private Guna.UI2.WinForms.Guna2Button btnXemThongTin;
         private Guna.UI2.WinForms.Guna2DataGridView dgvSach;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colISBN;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTacGia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColTuaSach;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColNgonNgu;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColSoLuong;
     }
 }
