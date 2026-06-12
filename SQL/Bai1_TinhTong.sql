@@ -1,8 +1,10 @@
-﻿DROP PROCEDURE IF EXISTS sp_TinhTongHaiSo;
-GO
-
+﻿
 USE ThuVienDB;
 GO
+
+DROP PROCEDURE IF EXISTS sp_TinhTongHaiSo;
+GO
+
 CREATE PROCEDURE sp_TinhTongHaiSo
 	@SoA int,
 	@SoB int

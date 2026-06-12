@@ -64,7 +64,21 @@ namespace DBMS_final
 
         private void btnTraCuuSach_Click(object sender, EventArgs e)
         {
+            sp_ThongTinDauSachTableAdapter handle = new sp_ThongTinDauSachTableAdapter();
+            dgvThongTinSach.DataSource = handle.GetData(txtISBN.Text);
 
+            dgvThongTinSach.Columns["isbn"].HeaderText = "Mã ISBN";
+            dgvThongTinSach.Columns["tua_sach"].HeaderText = "Tên tựa sách";
+            dgvThongTinSach.Columns["tacgia"].HeaderText = "Tên tác giả";
+            dgvThongTinSach.Columns["ngon_ngu"].HeaderText = "Ngôn ngữ";
+            dgvThongTinSach.Columns["SoLuong"].HeaderText = "Số lượng";
+
+            //Giãn đều
+            dgvThongTinSach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            //Cách giữa
+            dgvThongTinSach.Columns["isbn"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dgvThongTinSach.Columns["SoLuong"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
 
         private void btnKetNoi_Click(object sender, EventArgs e)
@@ -119,6 +133,11 @@ namespace DBMS_final
         }
 
         private void Dgv_ThongTinDG_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txtISBN_TextChanged(object sender, EventArgs e)
         {
 
         }

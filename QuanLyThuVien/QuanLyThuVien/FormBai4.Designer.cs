@@ -240,7 +240,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(15);
             this.tabPage2.Size = new System.Drawing.Size(457, 402);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "ĐẦU SÁCH (CÂU B)";
+            this.tabPage2.Text = "THÔNG TIN ĐẦU SÁCH";
             // 
             // dgvThongTinSach
             // 
@@ -312,6 +312,7 @@
             this.txtISBN.Size = new System.Drawing.Size(280, 40);
             this.txtISBN.TabIndex = 1;
             this.txtISBN.TextOffset = new System.Drawing.Point(8, 0);
+            this.txtISBN.TextChanged += new System.EventHandler(this.txtISBN_TextChanged);
             // 
             // btnTraCuuSach
             // 
@@ -337,7 +338,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(15);
             this.tabPage3.Size = new System.Drawing.Size(457, 402);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "ĐANG MƯỢN (CÂU C)";
+            this.tabPage3.Text = "NGƯỜI LỚN MƯỢN SÁCH";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // dgvDangMuon
@@ -405,7 +406,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(15);
             this.tabPage4.Size = new System.Drawing.Size(457, 402);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "QUÁ HẠN (CÂU D)";
+            this.tabPage4.Text = "MƯỢN SÁCH QUÁ HẠN";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // btnLietKeQuahan
@@ -472,7 +473,7 @@
             this.tabPage5.Padding = new System.Windows.Forms.Padding(15);
             this.tabPage5.Size = new System.Drawing.Size(457, 402);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "BẢO LÃNH (CÂU E)";
+            this.tabPage5.Text = "BẢO LÃNH MƯỢN SÁCH";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // dgvCapMuon

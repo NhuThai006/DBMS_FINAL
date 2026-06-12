@@ -1,8 +1,6 @@
 USE ThuVienDB;
 GO
 
-DROP PROCEDURE IF EXISTS sp_ThongTinDauSach;
-
 -- Bắt buộc phải xóa các bảng này trước vì nó chứa khóa ngoại
 DROP TABLE IF EXISTS QuaTrinhMuon;
 DROP TABLE IF EXISTS Muon;

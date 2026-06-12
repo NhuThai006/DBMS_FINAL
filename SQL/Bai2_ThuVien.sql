@@ -1,5 +1,7 @@
-﻿
--- 4. Tạo Stored Procedure
+﻿USE ThuVienDB;
+GO
+DROP PROCEDURE IF EXISTS sp_ThongTinDauSach;
+GO
 CREATE PROCEDURE sp_ThongTinDauSach
 	@isbn varchar(20) 
 AS 
