@@ -88,6 +88,19 @@ namespace DBMS_final
 
         private void btnLietKeDangMuon_Click(object sender, EventArgs e)
         {
+            sp_ThongtinNguoilonDangmuonTableAdapter handle = new sp_ThongtinNguoilonDangmuonTableAdapter();
+            dgvDangMuon.DataSource = handle.GetData();
+            dgvDangMuon.Columns["ma_DocGia"].HeaderText = "Mã Độc Giả";
+            dgvDangMuon.Columns["ho"].HeaderText = "Họ";
+            dgvDangMuon.Columns["tenlot"].HeaderText = "Tên Lót";
+            dgvDangMuon.Columns["ten"].HeaderText = "Tên";
+            dgvDangMuon.Columns["ngaysinh"].HeaderText = "Ngày Sinh";
+            dgvDangMuon.Columns["sonha"].HeaderText = "Số Nhà";
+            dgvDangMuon.Columns["duong"].HeaderText = "Đường";
+            dgvDangMuon.Columns["quan"].HeaderText = "Quận";
+            dgvDangMuon.Columns["dienthoai"].HeaderText = "Điện Thoại";
+            dgvDangMuon.Columns["han_sd"].HeaderText = "Hạn Sử Dụng";
+            dgvDangMuon.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
         }
 

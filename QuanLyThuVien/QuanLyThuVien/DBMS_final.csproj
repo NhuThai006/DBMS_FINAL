@@ -107,11 +107,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ThuVienDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="ThuVienDBDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ThuVienDBDataSet1.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="FormBai1.resx">
       <DependentUpon>FormBai1.cs</DependentUpon>
     </EmbeddedResource>
@@ -163,17 +158,6 @@
     </None>
     <None Include="ThuVienDBDataSet.xss">
       <DependentUpon>ThuVienDBDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="ThuVienDBDataSet1.xsc">
-      <DependentUpon>ThuVienDBDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="ThuVienDBDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ThuVienDBDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ThuVienDBDataSet1.xss">
-      <DependentUpon>ThuVienDBDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
