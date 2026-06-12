@@ -421,6 +421,7 @@
             this.btnLietKeQuahan.Size = new System.Drawing.Size(425, 42);
             this.btnLietKeQuahan.TabIndex = 1;
             this.btnLietKeQuahan.Text = "DANH SÁCH ĐỘC GIẢ MƯỢN QUÁ HẠN 14 NGÀY";
+            this.btnLietKeQuahan.Click += new System.EventHandler(this.btnLietKeQuahan_Click);
             // 
             // dgvQuaHan
             // 

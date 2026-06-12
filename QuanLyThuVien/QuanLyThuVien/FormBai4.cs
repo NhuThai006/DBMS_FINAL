@@ -154,5 +154,22 @@ namespace DBMS_final
         {
 
         }
+
+        private void btnLietKeQuahan_Click(object sender, EventArgs e)
+        {
+            sp_ThongtinNguoilonQuahanTableAdapter handle = new sp_ThongtinNguoilonQuahanTableAdapter();
+            dgvQuaHan.DataSource = handle.GetData();
+            dgvQuaHan.Columns["ma_DocGia"].HeaderText = "Mã Độc Giả";
+            dgvQuaHan.Columns["ho"].HeaderText = "Họ";
+            dgvQuaHan.Columns["tenlot"].HeaderText = "Tên Lót";
+            dgvQuaHan.Columns["ten"].HeaderText = "Tên";
+            dgvQuaHan.Columns["ngaysinh"].HeaderText = "Ngày Sinh";
+            dgvQuaHan.Columns["sonha"].HeaderText = "Số Nhà";
+            dgvQuaHan.Columns["duong"].HeaderText = "Đường";
+            dgvQuaHan.Columns["quan"].HeaderText = "Quận";
+            dgvQuaHan.Columns["dienthoai"].HeaderText = "Điện Thoại";
+            dgvQuaHan.Columns["han_sd"].HeaderText = "Hạn Sử Dụng";
+            dgvQuaHan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        }
     }
 }
