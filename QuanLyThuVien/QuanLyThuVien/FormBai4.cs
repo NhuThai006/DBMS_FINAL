@@ -1,4 +1,5 @@
-﻿using System;
+using QuanLyThuVien.ThuVienDBDataSetTableAdapters;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,46 @@ namespace DBMS_final
 
         private void btnTimDocGia_Click(object sender, EventArgs e)
         {
+            TA_ThongTinDG handle = new TA_ThongTinDG();
+            Dgv_ThongTinDG .DataSource = handle.GetData(int.Parse(txtMaDocGia.Text));
 
+            if (Dgv_ThongTinDG.Columns.Contains("ma_DocGia"))
+                Dgv_ThongTinDG.Columns["ma_DocGia"].HeaderText = "Mã Độc Giả";
+
+            if (Dgv_ThongTinDG.Columns.Contains("ho"))
+                Dgv_ThongTinDG.Columns["ho"].HeaderText = "Họ";
+
+            if (Dgv_ThongTinDG.Columns.Contains("tenlot"))
+                Dgv_ThongTinDG.Columns["tenlot"].HeaderText = "Tên Lót";
+
+            if (Dgv_ThongTinDG.Columns.Contains("ten"))
+                Dgv_ThongTinDG.Columns["ten"].HeaderText = "Tên";
+
+            if (Dgv_ThongTinDG.Columns.Contains("ngaysinh"))
+                Dgv_ThongTinDG.Columns["ngaysinh"].HeaderText = "Ngày Sinh";
+
+            // 2. Chỉnh tiêu đề cho các cột của NGƯỜI LỚN
+            if (Dgv_ThongTinDG.Columns.Contains("sonha"))
+                Dgv_ThongTinDG.Columns["sonha"].HeaderText = "Số Nhà";
+
+            if (Dgv_ThongTinDG.Columns.Contains("duong"))
+                Dgv_ThongTinDG.Columns["duong"].HeaderText = "Đường";
+
+            if (Dgv_ThongTinDG.Columns.Contains("quan"))
+                Dgv_ThongTinDG.Columns["quan"].HeaderText = "Quận";
+
+            if (Dgv_ThongTinDG.Columns.Contains("dienthoai"))
+                Dgv_ThongTinDG.Columns["dienthoai"].HeaderText = "Điện Thoại";
+
+            if (Dgv_ThongTinDG.Columns.Contains("han_sd"))
+                Dgv_ThongTinDG.Columns["han_sd"].HeaderText = "Hạn Sử Dụng";
+
+            // 3. Chỉnh tiêu đề cho các cột của TRẺ EM
+            if (Dgv_ThongTinDG.Columns.Contains("ma_DocGia_nguoilon"))
+                Dgv_ThongTinDG.Columns["ma_DocGia_nguoilon"].HeaderText = "Mã ĐG Người Lớn";
+
+            // Tự động căn chỉnh độ rộng các cột cho đẹp mắt
+            Dgv_ThongTinDG.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void btnTraCuuSach_Click(object sender, EventArgs e)
@@ -38,6 +78,47 @@ namespace DBMS_final
         }
 
         private void btnLietKeCapMuon_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(txtMaDocGia.Text))
+                {
+                    MessageBox.Show("Vui lòng nhập mã độc giả!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                int maDocGia;
+                if (!int.TryParse(txtMaDocGia.Text, out maDocGia))
+                {
+                    MessageBox.Show("Mã độc giả phải là số nguyên!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                TA_ThongTinDG handle = new TA_ThongTinDG();
+                var data = handle.GetData(maDocGia);
+
+                if (data == null || data.Rows.Count == 0)
+                {
+                    MessageBox.Show("Không tìm thấy dữ liệu hoặc danh sách rỗng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Dgv_ThongTinDG.DataSource = null;
+                }
+                else
+                {
+                    Dgv_ThongTinDG.DataSource = data;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi:\n" + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void txtMaDocGia_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dgv_ThongTinDG_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

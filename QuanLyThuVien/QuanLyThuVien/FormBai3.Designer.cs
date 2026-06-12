@@ -69,6 +69,7 @@
             this.txtNamSinh.Size = new System.Drawing.Size(615, 48);
             this.txtNamSinh.TabIndex = 1;
             this.txtNamSinh.TextOffset = new System.Drawing.Point(10, 0);
+            this.txtNamSinh.TextChanged += new System.EventHandler(this.txtNamSinh_TextChanged);
             // 
             // btnTinhTuoi
             // 
@@ -94,7 +95,7 @@
             this.lblResultTitle.AutoSize = true;
             this.lblResultTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.lblResultTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(85)))));
-            this.lblResultTitle.Location = new System.Drawing.Point(45, 260);
+            this.lblResultTitle.Location = new System.Drawing.Point(45, 250);
             this.lblResultTitle.Name = "lblResultTitle";
             this.lblResultTitle.Size = new System.Drawing.Size(214, 25);
             this.lblResultTitle.TabIndex = 3;
@@ -113,7 +114,7 @@
             this.txtKetQuaTuoi.FocusedState.BorderColor = System.Drawing.Color.Transparent;
             this.txtKetQuaTuoi.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.txtKetQuaTuoi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(92)))), ((int)(((byte)(246)))));
-            this.txtKetQuaTuoi.Location = new System.Drawing.Point(50, 300);
+            this.txtKetQuaTuoi.Location = new System.Drawing.Point(50, 310);
             this.txtKetQuaTuoi.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtKetQuaTuoi.Name = "txtKetQuaTuoi";
             this.txtKetQuaTuoi.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
