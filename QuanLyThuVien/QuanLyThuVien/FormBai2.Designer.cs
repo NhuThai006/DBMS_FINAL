@@ -1,4 +1,4 @@
-﻿namespace DBMS_final
+namespace DBMS_final
 {
     partial class FormBai2
     {
@@ -36,6 +36,11 @@
             this.txtISBN = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnXemThongTin = new Guna.UI2.WinForms.Guna2Button();
             this.dgvSach = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.colIsbn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTuaSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTacGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colNgonNgu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSach)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,6 +103,7 @@
             // 
             this.dgvSach.AllowUserToAddRows = false;
             this.dgvSach.AllowUserToDeleteRows = false;
+            this.dgvSach.AutoGenerateColumns = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.dgvSach.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -109,6 +115,12 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvSach.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvSach.ColumnHeadersHeight = 38;
+            this.dgvSach.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colIsbn,
+            this.colTuaSach,
+            this.colTacGia,
+            this.colNgonNgu,
+            this.colSoLuong});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -118,7 +130,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvSach.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvSach.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.dgvSach.Location = new System.Drawing.Point(48, 150);
+            this.dgvSach.Location = new System.Drawing.Point(12, 150);
             this.dgvSach.Name = "dgvSach";
             this.dgvSach.ReadOnly = true;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -132,7 +144,7 @@
             this.dgvSach.RowHeadersVisible = false;
             this.dgvSach.RowHeadersWidth = 51;
             this.dgvSach.RowTemplate.Height = 32;
-            this.dgvSach.Size = new System.Drawing.Size(619, 320);
+            this.dgvSach.Size = new System.Drawing.Size(973, 454);
             this.dgvSach.TabIndex = 3;
             this.dgvSach.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvSach.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
@@ -148,12 +160,49 @@
             this.dgvSach.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(33)))), ((int)(((byte)(168)))));
             this.dgvSach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSach_CellContentClick);
             // 
+            // colIsbn
+            // 
+            this.colIsbn.DataPropertyName = "isbn";
+            this.colIsbn.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colIsbn.HeaderText = "Mã ISBN";
+            this.colIsbn.Name = "colIsbn";
+            this.colIsbn.ReadOnly = true;
+            // 
+            // colTuaSach
+            // 
+            this.colTuaSach.DataPropertyName = "tua_sach";
+            this.colTuaSach.HeaderText = "Tên tựa sách";
+            this.colTuaSach.Name = "colTuaSach";
+            this.colTuaSach.ReadOnly = true;
+            // 
+            // colTacGia
+            // 
+            this.colTacGia.DataPropertyName = "tacgia";
+            this.colTacGia.HeaderText = "Tên tác giả";
+            this.colTacGia.Name = "colTacGia";
+            this.colTacGia.ReadOnly = true;
+            // 
+            // colNgonNgu
+            // 
+            this.colNgonNgu.DataPropertyName = "ngon_ngu";
+            this.colNgonNgu.HeaderText = "Ngôn ngữ";
+            this.colNgonNgu.Name = "colNgonNgu";
+            this.colNgonNgu.ReadOnly = true;
+            // 
+            // colSoLuong
+            // 
+            this.colSoLuong.DataPropertyName = "SoLuong";
+            this.colSoLuong.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.colSoLuong.HeaderText = "Số lượng";
+            this.colSoLuong.Name = "colSoLuong";
+            this.colSoLuong.ReadOnly = true;
+            // 
             // FormBai2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(715, 500);
+            this.ClientSize = new System.Drawing.Size(997, 616);
             this.Controls.Add(this.dgvSach);
             this.Controls.Add(this.btnXemThongTin);
             this.Controls.Add(this.txtISBN);
@@ -173,5 +222,10 @@
         private Guna.UI2.WinForms.Guna2TextBox txtISBN;
         private Guna.UI2.WinForms.Guna2Button btnXemThongTin;
         private Guna.UI2.WinForms.Guna2DataGridView dgvSach;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colIsbn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTuaSach;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTacGia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNgonNgu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colSoLuong;
     }
 }

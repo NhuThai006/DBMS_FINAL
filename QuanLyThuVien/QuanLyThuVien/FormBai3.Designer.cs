@@ -60,7 +60,7 @@
             this.txtNamSinh.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.txtNamSinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.txtNamSinh.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(253)))));
-            this.txtNamSinh.Location = new System.Drawing.Point(50, 85);
+            this.txtNamSinh.Location = new System.Drawing.Point(180, 88);
             this.txtNamSinh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNamSinh.Name = "txtNamSinh";
             this.txtNamSinh.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
@@ -69,7 +69,6 @@
             this.txtNamSinh.Size = new System.Drawing.Size(615, 48);
             this.txtNamSinh.TabIndex = 1;
             this.txtNamSinh.TextOffset = new System.Drawing.Point(10, 0);
-            this.txtNamSinh.TextChanged += new System.EventHandler(this.txtNamSinh_TextChanged);
             // 
             // btnTinhTuoi
             // 
@@ -83,7 +82,7 @@
             this.btnTinhTuoi.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.btnTinhTuoi.ForeColor = System.Drawing.Color.White;
             this.btnTinhTuoi.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(58)))), ((int)(((byte)(237)))));
-            this.btnTinhTuoi.Location = new System.Drawing.Point(50, 165);
+            this.btnTinhTuoi.Location = new System.Drawing.Point(180, 165);
             this.btnTinhTuoi.Name = "btnTinhTuoi";
             this.btnTinhTuoi.Size = new System.Drawing.Size(615, 48);
             this.btnTinhTuoi.TabIndex = 2;
@@ -95,7 +94,7 @@
             this.lblResultTitle.AutoSize = true;
             this.lblResultTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.lblResultTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(85)))));
-            this.lblResultTitle.Location = new System.Drawing.Point(45, 250);
+            this.lblResultTitle.Location = new System.Drawing.Point(45, 260);
             this.lblResultTitle.Name = "lblResultTitle";
             this.lblResultTitle.Size = new System.Drawing.Size(214, 25);
             this.lblResultTitle.TabIndex = 3;
@@ -114,7 +113,7 @@
             this.txtKetQuaTuoi.FocusedState.BorderColor = System.Drawing.Color.Transparent;
             this.txtKetQuaTuoi.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.txtKetQuaTuoi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(92)))), ((int)(((byte)(246)))));
-            this.txtKetQuaTuoi.Location = new System.Drawing.Point(50, 310);
+            this.txtKetQuaTuoi.Location = new System.Drawing.Point(180, 317);
             this.txtKetQuaTuoi.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtKetQuaTuoi.Name = "txtKetQuaTuoi";
             this.txtKetQuaTuoi.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
@@ -130,7 +129,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(715, 500);
+            this.ClientSize = new System.Drawing.Size(997, 616);
             this.Controls.Add(this.txtKetQuaTuoi);
             this.Controls.Add(this.lblResultTitle);
             this.Controls.Add(this.btnTinhTuoi);

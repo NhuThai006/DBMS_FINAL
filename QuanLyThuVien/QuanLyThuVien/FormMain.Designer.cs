@@ -46,7 +46,7 @@
             this.pnlSidebar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(36)))), ((int)(((byte)(51)))));
             this.pnlSidebar.Location = new System.Drawing.Point(15, 15);
             this.pnlSidebar.Name = "pnlSidebar";
-            this.pnlSidebar.Size = new System.Drawing.Size(259, 604);
+            this.pnlSidebar.Size = new System.Drawing.Size(259, 686);
             this.pnlSidebar.TabIndex = 0;
             // 
             // btnBai6
@@ -187,7 +187,7 @@
             this.pnlContent.FillColor = System.Drawing.Color.White;
             this.pnlContent.Location = new System.Drawing.Point(296, 85);
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Size = new System.Drawing.Size(778, 534);
+            this.pnlContent.Size = new System.Drawing.Size(997, 616);
             this.pnlContent.TabIndex = 2;
             // 
             // pnlNavbar
@@ -215,7 +215,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
-            this.ClientSize = new System.Drawing.Size(1086, 631);
+            this.ClientSize = new System.Drawing.Size(1309, 716);
             this.Controls.Add(this.pnlContent);
             this.Controls.Add(this.pnlNavbar);
             this.Controls.Add(this.pnlSidebar);

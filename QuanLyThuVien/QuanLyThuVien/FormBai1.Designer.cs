@@ -46,7 +46,7 @@
             this.txtSoA.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.txtSoA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.txtSoA.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(253)))));
-            this.txtSoA.Location = new System.Drawing.Point(50, 85);
+            this.txtSoA.Location = new System.Drawing.Point(171, 75);
             this.txtSoA.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoA.Name = "txtSoA";
             this.txtSoA.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
@@ -67,7 +67,7 @@
             this.txtSoB.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.txtSoB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.txtSoB.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(253)))));
-            this.txtSoB.Location = new System.Drawing.Point(375, 85);
+            this.txtSoB.Location = new System.Drawing.Point(538, 75);
             this.txtSoB.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoB.Name = "txtSoB";
             this.txtSoB.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
@@ -87,7 +87,7 @@
             this.btnTinhTong.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.btnTinhTong.ForeColor = System.Drawing.Color.White;
             this.btnTinhTong.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(58)))), ((int)(((byte)(237)))));
-            this.btnTinhTong.Location = new System.Drawing.Point(50, 170);
+            this.btnTinhTong.Location = new System.Drawing.Point(188, 168);
             this.btnTinhTong.Name = "btnTinhTong";
             this.btnTinhTong.Size = new System.Drawing.Size(615, 48);
             this.btnTinhTong.TabIndex = 3;
@@ -118,7 +118,7 @@
             this.txtKetQua.FocusedState.BorderColor = System.Drawing.Color.Transparent;
             this.txtKetQua.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.txtKetQua.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(92)))), ((int)(((byte)(246)))));
-            this.txtKetQua.Location = new System.Drawing.Point(50, 300);
+            this.txtKetQua.Location = new System.Drawing.Point(188, 306);
             this.txtKetQua.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtKetQua.Name = "txtKetQua";
             this.txtKetQua.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
@@ -133,7 +133,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(715, 500);
+            this.ClientSize = new System.Drawing.Size(997, 616);
             this.Controls.Add(this.txtKetQua);
             this.Controls.Add(this.lblKetQua);
             this.Controls.Add(this.btnTinhTong);

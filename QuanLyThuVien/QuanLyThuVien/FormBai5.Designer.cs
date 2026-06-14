@@ -83,7 +83,7 @@
             this.guna2TabControl1.Location = new System.Drawing.Point(20, 75);
             this.guna2TabControl1.Name = "guna2TabControl1";
             this.guna2TabControl1.SelectedIndex = 0;
-            this.guna2TabControl1.Size = new System.Drawing.Size(675, 230);
+            this.guna2TabControl1.Size = new System.Drawing.Size(965, 260);
             this.guna2TabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.guna2TabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(51)))), ((int)(((byte)(71)))));
             this.guna2TabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -111,7 +111,7 @@
             this.tabPage1.Location = new System.Drawing.Point(214, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(15);
-            this.tabPage1.Size = new System.Drawing.Size(457, 222);
+            this.tabPage1.Size = new System.Drawing.Size(747, 252);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "TRIGGER 5.1 (DEL)";
             // 
@@ -140,7 +140,7 @@
             this.txtMaCuonSach_Del.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.txtMaCuonSach_Del.ForeColor = System.Drawing.Color.Black;
             this.txtMaCuonSach_Del.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(253)))));
-            this.txtMaCuonSach_Del.Location = new System.Drawing.Point(20, 25);
+            this.txtMaCuonSach_Del.Location = new System.Drawing.Point(20, 19);
             this.txtMaCuonSach_Del.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMaCuonSach_Del.Name = "txtMaCuonSach_Del";
             this.txtMaCuonSach_Del.PlaceholderText = "Nhập mã cuốn sách muốn xóa mượn...";
@@ -158,7 +158,7 @@
             this.tabPage2.Location = new System.Drawing.Point(214, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(15);
-            this.tabPage2.Size = new System.Drawing.Size(457, 222);
+            this.tabPage2.Size = new System.Drawing.Size(747, 252);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "TRIGGER 5.2 (INS)";
             // 
@@ -170,7 +170,7 @@
             this.btnExec_Ins.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.btnExec_Ins.ForeColor = System.Drawing.Color.White;
             this.btnExec_Ins.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(58)))), ((int)(((byte)(237)))));
-            this.btnExec_Ins.Location = new System.Drawing.Point(20, 80);
+            this.btnExec_Ins.Location = new System.Drawing.Point(20, 86);
             this.btnExec_Ins.Name = "btnExec_Ins";
             this.btnExec_Ins.Size = new System.Drawing.Size(415, 44);
             this.btnExec_Ins.TabIndex = 2;
@@ -187,7 +187,7 @@
             this.txtISBN_Ins.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.txtISBN_Ins.ForeColor = System.Drawing.Color.Black;
             this.txtISBN_Ins.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(253)))));
-            this.txtISBN_Ins.Location = new System.Drawing.Point(235, 20);
+            this.txtISBN_Ins.Location = new System.Drawing.Point(483, 20);
             this.txtISBN_Ins.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtISBN_Ins.Name = "txtISBN_Ins";
             this.txtISBN_Ins.PlaceholderText = "Nhập mã ISBN...";
@@ -211,7 +211,7 @@
             this.txtMaCuonSach_Ins.Name = "txtMaCuonSach_Ins";
             this.txtMaCuonSach_Ins.PlaceholderText = "Nhập mã cuốn sách mượn...";
             this.txtMaCuonSach_Ins.SelectedText = "";
-            this.txtMaCuonSach_Ins.Size = new System.Drawing.Size(200, 42);
+            this.txtMaCuonSach_Ins.Size = new System.Drawing.Size(415, 42);
             this.txtMaCuonSach_Ins.TabIndex = 0;
             this.txtMaCuonSach_Ins.TextOffset = new System.Drawing.Point(8, 0);
             // 
@@ -223,7 +223,7 @@
             this.tabPage3.Controls.Add(this.btnExec_Upd);
             this.tabPage3.Location = new System.Drawing.Point(214, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(457, 222);
+            this.tabPage3.Size = new System.Drawing.Size(747, 252);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "TRIGGER 5.3 (UPD)";
             // 
@@ -239,9 +239,9 @@
             this.cmbTinhTrang.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbTinhTrang.ForeColor = System.Drawing.Color.Black;
             this.cmbTinhTrang.ItemHeight = 36;
-            this.cmbTinhTrang.Location = new System.Drawing.Point(275, 25);
+            this.cmbTinhTrang.Location = new System.Drawing.Point(490, 25);
             this.cmbTinhTrang.Name = "cmbTinhTrang";
-            this.cmbTinhTrang.Size = new System.Drawing.Size(160, 42);
+            this.cmbTinhTrang.Size = new System.Drawing.Size(179, 42);
             this.cmbTinhTrang.TabIndex = 2;
             // 
             // txtISBN_Upd
@@ -259,7 +259,7 @@
             this.txtISBN_Upd.Name = "txtISBN_Upd";
             this.txtISBN_Upd.PlaceholderText = "Nhập mã sách cần thay đổi...";
             this.txtISBN_Upd.SelectedText = "";
-            this.txtISBN_Upd.Size = new System.Drawing.Size(240, 42);
+            this.txtISBN_Upd.Size = new System.Drawing.Size(415, 42);
             this.txtISBN_Upd.TabIndex = 1;
             this.txtISBN_Upd.TextOffset = new System.Drawing.Point(8, 0);
             // 
@@ -271,7 +271,7 @@
             this.btnExec_Upd.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.btnExec_Upd.ForeColor = System.Drawing.Color.White;
             this.btnExec_Upd.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(58)))), ((int)(((byte)(237)))));
-            this.btnExec_Upd.Location = new System.Drawing.Point(20, 85);
+            this.btnExec_Upd.Location = new System.Drawing.Point(20, 92);
             this.btnExec_Upd.Name = "btnExec_Upd";
             this.btnExec_Upd.Size = new System.Drawing.Size(415, 44);
             this.btnExec_Upd.TabIndex = 0;
@@ -286,7 +286,7 @@
             this.tabPage4.Controls.Add(this.txtTenTuaSach);
             this.tabPage4.Location = new System.Drawing.Point(214, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(457, 222);
+            this.tabPage4.Size = new System.Drawing.Size(747, 252);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "TRIGGER 5.4 (INFO)";
             // 
@@ -298,7 +298,7 @@
             this.btnExec_ThongBao.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.btnExec_ThongBao.ForeColor = System.Drawing.Color.White;
             this.btnExec_ThongBao.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(58)))), ((int)(((byte)(237)))));
-            this.btnExec_ThongBao.Location = new System.Drawing.Point(20, 80);
+            this.btnExec_ThongBao.Location = new System.Drawing.Point(160, 95);
             this.btnExec_ThongBao.Name = "btnExec_ThongBao";
             this.btnExec_ThongBao.Size = new System.Drawing.Size(415, 44);
             this.btnExec_ThongBao.TabIndex = 2;
@@ -315,7 +315,7 @@
             this.txtTacGia.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.txtTacGia.ForeColor = System.Drawing.Color.Black;
             this.txtTacGia.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(253)))));
-            this.txtTacGia.Location = new System.Drawing.Point(235, 20);
+            this.txtTacGia.Location = new System.Drawing.Point(405, 20);
             this.txtTacGia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTacGia.Name = "txtTacGia";
             this.txtTacGia.PlaceholderText = "Tên tác giả...";
@@ -334,7 +334,7 @@
             this.txtTenTuaSach.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.txtTenTuaSach.ForeColor = System.Drawing.Color.Black;
             this.txtTenTuaSach.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(253)))));
-            this.txtTenTuaSach.Location = new System.Drawing.Point(20, 20);
+            this.txtTenTuaSach.Location = new System.Drawing.Point(128, 20);
             this.txtTenTuaSach.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTenTuaSach.Name = "txtTenTuaSach";
             this.txtTenTuaSach.PlaceholderText = "Tên tựa sách mới...";
@@ -348,7 +348,7 @@
             this.lblLogTitle.AutoSize = true;
             this.lblLogTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.lblLogTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.lblLogTitle.Location = new System.Drawing.Point(20, 315);
+            this.lblLogTitle.Location = new System.Drawing.Point(16, 351);
             this.lblLogTitle.Name = "lblLogTitle";
             this.lblLogTitle.Size = new System.Drawing.Size(346, 23);
             this.lblLogTitle.TabIndex = 2;
@@ -366,7 +366,7 @@
             this.txtLogTerminal.Enabled = false;
             this.txtLogTerminal.FocusedState.BorderColor = System.Drawing.Color.Transparent;
             this.txtLogTerminal.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Bold);
-            this.txtLogTerminal.Location = new System.Drawing.Point(20, 342);
+            this.txtLogTerminal.Location = new System.Drawing.Point(24, 378);
             this.txtLogTerminal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtLogTerminal.Multiline = true;
             this.txtLogTerminal.Name = "txtLogTerminal";
@@ -375,7 +375,7 @@
             this.txtLogTerminal.ReadOnly = true;
             this.txtLogTerminal.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtLogTerminal.SelectedText = "";
-            this.txtLogTerminal.Size = new System.Drawing.Size(675, 140);
+            this.txtLogTerminal.Size = new System.Drawing.Size(961, 225);
             this.txtLogTerminal.TabIndex = 3;
             this.txtLogTerminal.TextOffset = new System.Drawing.Point(5, 0);
             // 
@@ -384,7 +384,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(715, 500);
+            this.ClientSize = new System.Drawing.Size(997, 616);
             this.Controls.Add(this.txtLogTerminal);
             this.Controls.Add(this.lblLogTitle);
             this.Controls.Add(this.guna2TabControl1);

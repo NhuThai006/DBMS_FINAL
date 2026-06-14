@@ -5,8 +5,8 @@ GO
 CREATE PROCEDURE sp_ThongtinNguoilonDangmuon
 AS 
 BEGIN 
-	SELECT  
-		DG.ma_DocGia, DG.ho, DG.tenlot, DG.ten, DG.ngaysinh,
+	SELECT DISTINCT 
+		DG.ma_DocGia, DG.ho + N' '+ DG.tenlot + N' '+ DG.ten AS ho_va_ten, DG.ngaysinh,
         NL.sonha, NL.duong, NL.quan, NL.dienthoai, NL.han_sd
 	FROM DocGia DG 
 	JOIN Nguoilon NL ON DG.ma_DocGia  = NL.ma_DocGia

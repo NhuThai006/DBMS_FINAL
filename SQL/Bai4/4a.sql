@@ -12,7 +12,7 @@ BEGIN
     IF EXISTS(SELECT 1 FROM Nguoilon WHERE ma_DocGia = @Ma)
         BEGIN
             SELECT 
-                DG.ma_DocGia, DG.ho, DG.tenlot, DG.ten, DG.ngaysinh,
+                DG.ma_DocGia, DG.ho + N' '+ DG.tenlot + N' '+ DG.ten AS ho_va_ten, DG.ngaysinh,
                 NL.sonha, NL.duong, NL.quan, NL.dienthoai, NL.han_sd
             FROM
                 DocGia DG JOIN Nguoilon NL ON DG.ma_DocGia = NL.ma_DocGia 
@@ -23,7 +23,7 @@ BEGIN
      ELSE IF  EXISTS (SELECT 1 FROM Treem WHERE ma_DocGia = @Ma)
         BEGIN
             SELECT 
-                DG.ma_DocGia, DG.ho, DG.tenlot, DG.ten, DG.ngaysinh,
+                DG.ma_DocGia, DG.ho + N' '+ DG.tenlot + N' '+ DG.ten AS ho_va_ten, DG.ngaysinh,
                 T.ma_DocGia_nguoilon
             FROM
                 DocGia DG JOIN Treem T ON DG.ma_DocGia = T.ma_DocGia 

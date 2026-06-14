@@ -1,4 +1,4 @@
-﻿using QuanLyThuVien.ThuVienDBDataSetTableAdapters;
+using QuanLyThuVien.ThuVienDBDataSetTableAdapters;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,20 +21,9 @@ namespace DBMS_final
         private void btnXemThongTin_Click(object sender, EventArgs e)
         {
             sp_ThongTinDauSachTableAdapter handle = new sp_ThongTinDauSachTableAdapter();
+            dgvSach.AutoGenerateColumns = false;
             dgvSach.DataSource = handle.GetData(txtISBN.Text);
-
-            dgvSach.Columns["isbn"].HeaderText = "Mã ISBN";
-            dgvSach.Columns["tua_sach"].HeaderText = "Tên tựa sách";
-            dgvSach.Columns["tacgia"].HeaderText = "Tên tác giả";
-            dgvSach.Columns["ngon_ngu"].HeaderText = "Ngôn ngữ";
-            dgvSach.Columns["SoLuong"].HeaderText = "Số lượng";
-
-            //Giãn đều
             dgvSach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
-            //Cách giữa
-            dgvSach.Columns["isbn"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvSach.Columns["SoLuong"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
 
         private void txtISBN_TextChanged(object sender, EventArgs e)

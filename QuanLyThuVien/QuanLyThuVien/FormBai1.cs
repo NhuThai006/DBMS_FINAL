@@ -23,7 +23,7 @@ namespace DBMS_final
         private void btnTinhTong_Click(object sender, EventArgs e)
         {
             QueriesTableAdapter handle = new QueriesTableAdapter();
-            var kq = handle.sp_TinhTongHaiSo(int.Parse(txtSoA.Text), int.Parse(txtSoB.Text));
+           var kq = handle.sp_TinhTongHaiSo(int.Parse(txtSoA.Text), int.Parse(txtSoB.Text));
             txtKetQua.Text = kq.ToString();
         }
 
