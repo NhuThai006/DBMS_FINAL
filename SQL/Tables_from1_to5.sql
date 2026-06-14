@@ -80,144 +80,144 @@ GO
 -- 4. NHẬP 100 CUỐN SÁCH VẬT LÝ (CS001 -> CS100)
 -- ==========================================
 -- ISBN001 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN001', 'CS001', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN001', 'CS002', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN001', 'CS003', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN001', 'CS004', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN001', 'CS005', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN001', 'CS001', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN001', 'CS002', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN001', 'CS003', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN001', 'CS004', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN001', 'CS005', 'no');
 
 -- ISBN002 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN002', 'CS006', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN002', 'CS007', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN002', 'CS008', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN002', 'CS009', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN002', 'CS010', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN002', 'CS006', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN002', 'CS007', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN002', 'CS008', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN002', 'CS009', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN002', 'CS010', 'yes');
 
 -- ISBN003 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN003', 'CS011', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN003', 'CS012', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN003', 'CS013', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN003', 'CS014', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN003', 'CS015', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN003', 'CS011', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN003', 'CS012', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN003', 'CS013', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN003', 'CS014', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN003', 'CS015', 'yes');
 
 -- ISBN004 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN004', 'CS016', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN004', 'CS017', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN004', 'CS018', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN004', 'CS019', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN004', 'CS020', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN004', 'CS016', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN004', 'CS017', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN004', 'CS018', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN004', 'CS019', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN004', 'CS020', 'no');
 
 -- ISBN005 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN005', 'CS021', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN005', 'CS022', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN005', 'CS023', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN005', 'CS024', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN005', 'CS025', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN005', 'CS021', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN005', 'CS022', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN005', 'CS023', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN005', 'CS024', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN005', 'CS025', 'yes');
 
 -- ISBN006 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN006', 'CS026', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN006', 'CS027', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN006', 'CS028', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN006', 'CS029', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN006', 'CS030', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN006', 'CS026', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN006', 'CS027', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN006', 'CS028', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN006', 'CS029', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN006', 'CS030', 'no');
 
 -- ISBN007 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN007', 'CS031', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN007', 'CS032', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN007', 'CS033', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN007', 'CS034', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN007', 'CS035', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN007', 'CS031', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN007', 'CS032', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN007', 'CS033', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN007', 'CS034', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN007', 'CS035', 'yes');
 
 -- ISBN008 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN008', 'CS036', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN008', 'CS037', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN008', 'CS038', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN008', 'CS039', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN008', 'CS040', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN008', 'CS036', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN008', 'CS037', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN008', 'CS038', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN008', 'CS039', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN008', 'CS040', 'yes');
 
 -- ISBN009 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN009', 'CS041', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN009', 'CS042', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN009', 'CS043', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN009', 'CS044', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN009', 'CS045', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN009', 'CS041', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN009', 'CS042', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN009', 'CS043', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN009', 'CS044', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN009', 'CS045', 'yes');
 
 -- ISBN010 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN010', 'CS046', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN010', 'CS047', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN010', 'CS048', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN010', 'CS049', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN010', 'CS050', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN010', 'CS046', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN010', 'CS047', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN010', 'CS048', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN010', 'CS049', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN010', 'CS050', 'no');
 
 -- ISBN011 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN011', 'CS051', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN011', 'CS052', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN011', 'CS053', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN011', 'CS054', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN011', 'CS055', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN011', 'CS051', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN011', 'CS052', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN011', 'CS053', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN011', 'CS054', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN011', 'CS055', 'yes');
 
 -- ISBN012 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN012', 'CS056', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN012', 'CS057', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN012', 'CS058', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN012', 'CS059', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN012', 'CS060', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN012', 'CS056', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN012', 'CS057', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN012', 'CS058', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN012', 'CS059', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN012', 'CS060', 'no');
 
 -- ISBN013 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN013', 'CS061', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN013', 'CS062', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN013', 'CS063', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN013', 'CS064', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN013', 'CS065', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN013', 'CS061', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN013', 'CS062', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN013', 'CS063', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN013', 'CS064', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN013', 'CS065', 'yes');
 
 -- ISBN014 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN014', 'CS066', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN014', 'CS067', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN014', 'CS068', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN014', 'CS069', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN014', 'CS070', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN014', 'CS066', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN014', 'CS067', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN014', 'CS068', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN014', 'CS069', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN014', 'CS070', 'no');
 
 -- ISBN015 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN015', 'CS071', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN015', 'CS072', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN015', 'CS073', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN015', 'CS074', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN015', 'CS075', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN015', 'CS071', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN015', 'CS072', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN015', 'CS073', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN015', 'CS074', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN015', 'CS075', 'yes');
 
 -- ISBN016 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN016', 'CS076', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN016', 'CS077', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN016', 'CS078', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN016', 'CS079', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN016', 'CS080', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN016', 'CS076', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN016', 'CS077', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN016', 'CS078', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN016', 'CS079', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN016', 'CS080', 'no');
 
 -- ISBN017 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN017', 'CS081', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN017', 'CS082', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN017', 'CS083', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN017', 'CS084', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN017', 'CS085', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN017', 'CS081', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN017', 'CS082', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN017', 'CS083', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN017', 'CS084', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN017', 'CS085', 'yes');
 
 -- ISBN018 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN018', 'CS086', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN018', 'CS087', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN018', 'CS088', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN018', 'CS089', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN018', 'CS090', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN018', 'CS086', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN018', 'CS087', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN018', 'CS088', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN018', 'CS089', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN018', 'CS090', 'no');
 
 -- ISBN019 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN019', 'CS091', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN019', 'CS092', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN019', 'CS093', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN019', 'CS094', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN019', 'CS095', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN019', 'CS091', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN019', 'CS092', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN019', 'CS093', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN019', 'CS094', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN019', 'CS095', 'yes');
 
 -- ISBN020 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISBN020', 'CS096', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISBN020', 'CS097', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN020', 'CS098', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN020', 'CS099', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISBN020', 'CS100', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN020', 'CS096', 'no');
+INSERT INTO Cuonsach VALUES ('ISBN020', 'CS097', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN020', 'CS098', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN020', 'CS099', 'yes');
+INSERT INTO Cuonsach VALUES ('ISBN020', 'CS100', 'no');
 GO
 
 
