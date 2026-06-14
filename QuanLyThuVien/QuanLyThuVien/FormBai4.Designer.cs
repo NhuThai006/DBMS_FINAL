@@ -71,9 +71,7 @@ namespace DBMS_final
             this.colDG_MaDocGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDG_HoVaTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDG_NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDG_SoNha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDG_Duong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDG_Quan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDG_DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDG_DienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDG_HanSD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             // dgvThongTinSach columns (4 cột: bỏ SoLuong)
@@ -85,18 +83,14 @@ namespace DBMS_final
             this.colDM_MaDocGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDM_HoVaTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDM_NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDM_SoNha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDM_Duong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDM_Quan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDM_DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDM_DienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDM_HanSD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             // dgvQuaHan columns (8 cột: gộp họ tên)
             this.colQH_MaDocGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colQH_HoVaTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colQH_NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colQH_SoNha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colQH_Duong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colQH_Quan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colQH_DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colQH_DienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colQH_HanSD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2TabControl1.SuspendLayout();
@@ -247,9 +241,7 @@ namespace DBMS_final
             this.colDG_MaDocGia,
             this.colDG_HoVaTen,
             this.colDG_NgaySinh,
-            this.colDG_SoNha,
-            this.colDG_Duong,
-            this.colDG_Quan,
+            this.colDG_DiaChi,
             this.colDG_DienThoai,
             this.colDG_HanSD});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -282,7 +274,7 @@ namespace DBMS_final
             // colDG_MaDocGia
             // 
             this.colDG_MaDocGia.DataPropertyName = "ma_DocGia";
-            this.colDG_MaDocGia.HeaderText = "Mã Độc Giả";
+            this.colDG_MaDocGia.HeaderText = "Mã ĐG";
             this.colDG_MaDocGia.Name = "colDG_MaDocGia";
             this.colDG_MaDocGia.ReadOnly = true;
             // 
@@ -300,26 +292,12 @@ namespace DBMS_final
             this.colDG_NgaySinh.Name = "colDG_NgaySinh";
             this.colDG_NgaySinh.ReadOnly = true;
             // 
-            // colDG_SoNha
+            // colDG_DiaChi
             // 
-            this.colDG_SoNha.DataPropertyName = "sonha";
-            this.colDG_SoNha.HeaderText = "Số Nhà";
-            this.colDG_SoNha.Name = "colDG_SoNha";
-            this.colDG_SoNha.ReadOnly = true;
-            // 
-            // colDG_Duong
-            // 
-            this.colDG_Duong.DataPropertyName = "duong";
-            this.colDG_Duong.HeaderText = "Đường";
-            this.colDG_Duong.Name = "colDG_Duong";
-            this.colDG_Duong.ReadOnly = true;
-            // 
-            // colDG_Quan
-            // 
-            this.colDG_Quan.DataPropertyName = "quan";
-            this.colDG_Quan.HeaderText = "Quận";
-            this.colDG_Quan.Name = "colDG_Quan";
-            this.colDG_Quan.ReadOnly = true;
+            this.colDG_DiaChi.DataPropertyName = "DiaChi";
+            this.colDG_DiaChi.HeaderText = "Địa Chỉ";
+            this.colDG_DiaChi.Name = "colDG_DiaChi";
+            this.colDG_DiaChi.ReadOnly = true;
             // 
             // colDG_DienThoai
             // 
@@ -331,7 +309,7 @@ namespace DBMS_final
             // colDG_HanSD
             // 
             this.colDG_HanSD.DataPropertyName = "han_sd";
-            this.colDG_HanSD.HeaderText = "Hạn Sử Dụng";
+            this.colDG_HanSD.HeaderText = "Hạn SD";
             this.colDG_HanSD.Name = "colDG_HanSD";
             this.colDG_HanSD.ReadOnly = true;
             // 
@@ -544,9 +522,7 @@ namespace DBMS_final
             this.colDM_MaDocGia,
             this.colDM_HoVaTen,
             this.colDM_NgaySinh,
-            this.colDM_SoNha,
-            this.colDM_Duong,
-            this.colDM_Quan,
+            this.colDM_DiaChi,
             this.colDM_DienThoai,
             this.colDM_HanSD});
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -579,7 +555,7 @@ namespace DBMS_final
             // colDM_MaDocGia
             // 
             this.colDM_MaDocGia.DataPropertyName = "ma_DocGia";
-            this.colDM_MaDocGia.HeaderText = "Mã Độc Giả";
+            this.colDM_MaDocGia.HeaderText = "Mã ĐG";
             this.colDM_MaDocGia.Name = "colDM_MaDocGia";
             this.colDM_MaDocGia.ReadOnly = true;
             // 
@@ -597,26 +573,12 @@ namespace DBMS_final
             this.colDM_NgaySinh.Name = "colDM_NgaySinh";
             this.colDM_NgaySinh.ReadOnly = true;
             // 
-            // colDM_SoNha
+            // colDM_DiaChi
             // 
-            this.colDM_SoNha.DataPropertyName = "sonha";
-            this.colDM_SoNha.HeaderText = "Số Nhà";
-            this.colDM_SoNha.Name = "colDM_SoNha";
-            this.colDM_SoNha.ReadOnly = true;
-            // 
-            // colDM_Duong
-            // 
-            this.colDM_Duong.DataPropertyName = "duong";
-            this.colDM_Duong.HeaderText = "Đường";
-            this.colDM_Duong.Name = "colDM_Duong";
-            this.colDM_Duong.ReadOnly = true;
-            // 
-            // colDM_Quan
-            // 
-            this.colDM_Quan.DataPropertyName = "quan";
-            this.colDM_Quan.HeaderText = "Quận";
-            this.colDM_Quan.Name = "colDM_Quan";
-            this.colDM_Quan.ReadOnly = true;
+            this.colDM_DiaChi.DataPropertyName = "DiaChi";
+            this.colDM_DiaChi.HeaderText = "Địa Chỉ";
+            this.colDM_DiaChi.Name = "colDM_DiaChi";
+            this.colDM_DiaChi.ReadOnly = true;
             // 
             // colDM_DienThoai
             // 
@@ -628,7 +590,7 @@ namespace DBMS_final
             // colDM_HanSD
             // 
             this.colDM_HanSD.DataPropertyName = "han_sd";
-            this.colDM_HanSD.HeaderText = "Hạn Sử Dụng";
+            this.colDM_HanSD.HeaderText = "Hạn SD";
             this.colDM_HanSD.Name = "colDM_HanSD";
             this.colDM_HanSD.ReadOnly = true;
             // 
@@ -698,9 +660,7 @@ namespace DBMS_final
             this.colQH_MaDocGia,
             this.colQH_HoVaTen,
             this.colQH_NgaySinh,
-            this.colQH_SoNha,
-            this.colQH_Duong,
-            this.colQH_Quan,
+            this.colQH_DiaChi,
             this.colQH_DienThoai,
             this.colQH_HanSD});
             dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -733,7 +693,7 @@ namespace DBMS_final
             // colQH_MaDocGia
             // 
             this.colQH_MaDocGia.DataPropertyName = "ma_DocGia";
-            this.colQH_MaDocGia.HeaderText = "Mã Độc Giả";
+            this.colQH_MaDocGia.HeaderText = "Mã ĐG";
             this.colQH_MaDocGia.Name = "colQH_MaDocGia";
             this.colQH_MaDocGia.ReadOnly = true;
             // 
@@ -751,26 +711,12 @@ namespace DBMS_final
             this.colQH_NgaySinh.Name = "colQH_NgaySinh";
             this.colQH_NgaySinh.ReadOnly = true;
             // 
-            // colQH_SoNha
+            // colQH_DiaChi
             // 
-            this.colQH_SoNha.DataPropertyName = "sonha";
-            this.colQH_SoNha.HeaderText = "Số Nhà";
-            this.colQH_SoNha.Name = "colQH_SoNha";
-            this.colQH_SoNha.ReadOnly = true;
-            // 
-            // colQH_Duong
-            // 
-            this.colQH_Duong.DataPropertyName = "duong";
-            this.colQH_Duong.HeaderText = "Đường";
-            this.colQH_Duong.Name = "colQH_Duong";
-            this.colQH_Duong.ReadOnly = true;
-            // 
-            // colQH_Quan
-            // 
-            this.colQH_Quan.DataPropertyName = "quan";
-            this.colQH_Quan.HeaderText = "Quận";
-            this.colQH_Quan.Name = "colQH_Quan";
-            this.colQH_Quan.ReadOnly = true;
+            this.colQH_DiaChi.DataPropertyName = "DiaChi";
+            this.colQH_DiaChi.HeaderText = "Địa Chỉ";
+            this.colQH_DiaChi.Name = "colQH_DiaChi";
+            this.colQH_DiaChi.ReadOnly = true;
             // 
             // colQH_DienThoai
             // 
@@ -782,7 +728,7 @@ namespace DBMS_final
             // colQH_HanSD
             // 
             this.colQH_HanSD.DataPropertyName = "han_sd";
-            this.colQH_HanSD.HeaderText = "Hạn Sử Dụng";
+            this.colQH_HanSD.HeaderText = "Hạn SD";
             this.colQH_HanSD.Name = "colQH_HanSD";
             this.colQH_HanSD.ReadOnly = true;
             // 
@@ -914,9 +860,7 @@ namespace DBMS_final
         private System.Windows.Forms.DataGridViewTextBoxColumn colDG_MaDocGia;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDG_HoVaTen;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDG_NgaySinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDG_SoNha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDG_Duong;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDG_Quan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDG_DiaChi;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDG_DienThoai;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDG_HanSD;
         // dgvThongTinSach columns
@@ -928,18 +872,14 @@ namespace DBMS_final
         private System.Windows.Forms.DataGridViewTextBoxColumn colDM_MaDocGia;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDM_HoVaTen;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDM_NgaySinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDM_SoNha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDM_Duong;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDM_Quan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDM_DiaChi;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDM_DienThoai;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDM_HanSD;
         // dgvQuaHan columns
         private System.Windows.Forms.DataGridViewTextBoxColumn colQH_MaDocGia;
         private System.Windows.Forms.DataGridViewTextBoxColumn colQH_HoVaTen;
         private System.Windows.Forms.DataGridViewTextBoxColumn colQH_NgaySinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colQH_SoNha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colQH_Duong;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colQH_Quan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colQH_DiaChi;
         private System.Windows.Forms.DataGridViewTextBoxColumn colQH_DienThoai;
         private System.Windows.Forms.DataGridViewTextBoxColumn colQH_HanSD;
     }
