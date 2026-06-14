@@ -6,7 +6,7 @@ DROP PROCEDURE IF EXISTS sp_ThongtinDocGia;
 GO
 
 CREATE PROCEDURE sp_ThongTinDocGia
-    @Ma INT
+    @Ma VARCHAR(10)
 AS
 BEGIN
     IF EXISTS(SELECT 1 FROM Nguoilon WHERE ma_DocGia = @Ma)

@@ -26,19 +26,21 @@ namespace DBMS_final
                 return;
             }
 
-            int maDocGia;
-            if (!int.TryParse(txtMaDocGia.Text.Trim(), out maDocGia))
-            {
-                MessageBox.Show("Mã độc giả phải là số nguyên!", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
             try
             {
                 TA_ThongTinDG handle = new TA_ThongTinDG();
-                Dgv_ThongTinDG.AutoGenerateColumns = false;
-                Dgv_ThongTinDG.DataSource = handle.GetData(maDocGia);
-                Dgv_ThongTinDG.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                var data = handle.GetData(txtMaDocGia.Text.Trim());
+                if (data == null || data.Rows.Count == 0)
+                {
+                    MessageBox.Show("Không tìm thấy thông tin người dùng, vui lòng nhập đúng quy định.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Dgv_ThongTinDG.DataSource = null;
+                }
+                else
+                {
+                    Dgv_ThongTinDG.AutoGenerateColumns = false;
+                    Dgv_ThongTinDG.DataSource = data;
+                    Dgv_ThongTinDG.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                }
             }
             catch (Exception ex)
             {
@@ -48,7 +50,7 @@ namespace DBMS_final
 
         private void btnTraCuuSach_Click(object sender, EventArgs e)
         {
-            sp_ThongTinDauSachTableAdapter handle = new sp_ThongTinDauSachTableAdapter();
+            TA_TTDauSach handle = new TA_TTDauSach();
             var data = handle.GetData(txtISBN.Text);
             dgvThongTinSach.AutoGenerateColumns = false;
             dgvThongTinSach.DataSource = data;
@@ -81,31 +83,20 @@ namespace DBMS_final
         private void btnLietKeCapMuon_Click(object sender, EventArgs e)
         {
             try
-            {
-                if (string.IsNullOrWhiteSpace(txtMaDocGia.Text))
-                {
-                    MessageBox.Show("Vui lòng nhập mã độc giả!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-
-                int maDocGia;
-                if (!int.TryParse(txtMaDocGia.Text, out maDocGia))
-                {
-                    MessageBox.Show("Mã độc giả phải là số nguyên!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
-                TA_ThongTinDG handle = new TA_ThongTinDG();
-                var data = handle.GetData(maDocGia);
+            { 
+                TA_NLBaoLanh handle = new TA_NLBaoLanh();
+                var data = handle.GetData();
 
                 if (data == null || data.Rows.Count == 0)
                 {
-                    MessageBox.Show("Không tìm thấy dữ liệu hoặc danh sách rỗng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    Dgv_ThongTinDG.DataSource = null;
+                    MessageBox.Show("Không có người lớn nào đang có trẻ em bảo lãnh cùng mượn sách.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    dgvCapMuon.DataSource = null;
                 }
                 else
                 {
-                    Dgv_ThongTinDG.DataSource = data;
+                    dgvCapMuon.AutoGenerateColumns = false;
+                    dgvCapMuon.DataSource = data;
+                    dgvCapMuon.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
                 }
             }
             catch (Exception ex)
@@ -131,7 +122,7 @@ namespace DBMS_final
 
         private void btnLietKeQuahan_Click(object sender, EventArgs e)
         {
-            sp_ThongtinNguoilonQuahanTableAdapter handle = new sp_ThongtinNguoilonQuahanTableAdapter();
+            TA_NLQuaHan handle = new TA_NLQuaHan();
             dgvQuaHan.AutoGenerateColumns = false;
             dgvQuaHan.DataSource = handle.GetData();
             dgvQuaHan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;

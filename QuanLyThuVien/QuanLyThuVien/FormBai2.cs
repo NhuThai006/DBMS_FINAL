@@ -20,7 +20,7 @@ namespace DBMS_final
 
         private void btnXemThongTin_Click(object sender, EventArgs e)
         {
-            sp_ThongTinDauSachTableAdapter handle = new sp_ThongTinDauSachTableAdapter();
+            TA_TTDauSach handle = new TA_TTDauSach();
             dgvSach.AutoGenerateColumns = false;
             dgvSach.DataSource = handle.GetData(txtISBN.Text);
             dgvSach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;

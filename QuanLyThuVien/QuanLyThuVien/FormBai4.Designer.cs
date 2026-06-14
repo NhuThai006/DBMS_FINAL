@@ -93,6 +93,12 @@ namespace DBMS_final
             this.colQH_DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colQH_DienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colQH_HanSD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            // dgvCapMuon columns (câu E)
+            this.colE_MaDocGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colE_HoVaTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colE_DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colE_DienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colE_HanSD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_ThongTinDG)).BeginInit();
@@ -766,6 +772,12 @@ namespace DBMS_final
             dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(33)))), ((int)(((byte)(168)))));
             dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvCapMuon.DefaultCellStyle = dataGridViewCellStyle15;
+            this.dgvCapMuon.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colE_MaDocGia,
+            this.colE_HoVaTen,
+            this.colE_DiaChi,
+            this.colE_DienThoai,
+            this.colE_HanSD});
             this.dgvCapMuon.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.dgvCapMuon.Location = new System.Drawing.Point(15, 72);
             this.dgvCapMuon.Name = "dgvCapMuon";
@@ -828,6 +840,86 @@ namespace DBMS_final
             ((System.ComponentModel.ISupportInitialize)(this.dgvCapMuon)).EndInit();
             this.ResumeLayout(false);
 
+            // 
+            // colQH_MaDocGia
+            // 
+            this.colQH_MaDocGia.DataPropertyName = "ma_DocGia";
+            this.colQH_MaDocGia.HeaderText = "Mã ĐG";
+            this.colQH_MaDocGia.Name = "colQH_MaDocGia";
+            this.colQH_MaDocGia.ReadOnly = true;
+            // 
+            // colQH_HoVaTen
+            // 
+            this.colQH_HoVaTen.DataPropertyName = "ho_va_ten";
+            this.colQH_HoVaTen.HeaderText = "Họ và Tên";
+            this.colQH_HoVaTen.Name = "colQH_HoVaTen";
+            this.colQH_HoVaTen.ReadOnly = true;
+            // 
+            // colQH_NgaySinh
+            // 
+            this.colQH_NgaySinh.DataPropertyName = "ngaysinh";
+            this.colQH_NgaySinh.HeaderText = "Ngày Sinh";
+            this.colQH_NgaySinh.Name = "colQH_NgaySinh";
+            this.colQH_NgaySinh.ReadOnly = true;
+            // 
+            // colQH_DiaChi
+            // 
+            this.colQH_DiaChi.DataPropertyName = "DiaChi";
+            this.colQH_DiaChi.HeaderText = "Địa Chỉ";
+            this.colQH_DiaChi.Name = "colQH_DiaChi";
+            this.colQH_DiaChi.ReadOnly = true;
+            // 
+            // colQH_DienThoai
+            // 
+            this.colQH_DienThoai.DataPropertyName = "dienthoai";
+            this.colQH_DienThoai.HeaderText = "Điện Thoại";
+            this.colQH_DienThoai.Name = "colQH_DienThoai";
+            this.colQH_DienThoai.ReadOnly = true;
+            // 
+            // colQH_HanSD
+            // 
+            this.colQH_HanSD.DataPropertyName = "han_sd";
+            this.colQH_HanSD.HeaderText = "Hạn SD";
+            this.colQH_HanSD.Name = "colQH_HanSD";
+            this.colQH_HanSD.ReadOnly = true;
+            // 
+            // colE_MaDocGia
+            // 
+            this.colE_MaDocGia.DataPropertyName = "ma_DocGia";
+            this.colE_MaDocGia.HeaderText = "Mã ĐG";
+            this.colE_MaDocGia.Name = "colE_MaDocGia";
+            this.colE_MaDocGia.ReadOnly = true;
+            // 
+            // colE_HoVaTen
+            // 
+            this.colE_HoVaTen.DataPropertyName = "ho_va_ten";
+            this.colE_HoVaTen.HeaderText = "Họ và Tên";
+            this.colE_HoVaTen.Name = "colE_HoVaTen";
+            this.colE_HoVaTen.ReadOnly = true;
+            // 
+            // colE_DiaChi
+            // 
+            this.colE_DiaChi.DataPropertyName = "diachi";
+            this.colE_DiaChi.HeaderText = "Địa Chỉ";
+            this.colE_DiaChi.Name = "colE_DiaChi";
+            this.colE_DiaChi.ReadOnly = true;
+            // 
+            // colE_DienThoai
+            // 
+            this.colE_DienThoai.DataPropertyName = "dienthoai";
+            this.colE_DienThoai.HeaderText = "Điện Thoại";
+            this.colE_DienThoai.Name = "colE_DienThoai";
+            this.colE_DienThoai.ReadOnly = true;
+            // 
+            // colE_HanSD
+            // 
+            this.colE_HanSD.DataPropertyName = "han_sd";
+            this.colE_HanSD.HeaderText = "Hạn SD";
+            this.colE_HanSD.Name = "colE_HanSD";
+            this.colE_HanSD.ReadOnly = true;
+            // 
+
+
         }
 
         #endregion
@@ -882,5 +974,11 @@ namespace DBMS_final
         private System.Windows.Forms.DataGridViewTextBoxColumn colQH_DiaChi;
         private System.Windows.Forms.DataGridViewTextBoxColumn colQH_DienThoai;
         private System.Windows.Forms.DataGridViewTextBoxColumn colQH_HanSD;
+        // dgvCapMuon columns (câu E)
+        private System.Windows.Forms.DataGridViewTextBoxColumn colE_MaDocGia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colE_HoVaTen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colE_DiaChi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colE_DienThoai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colE_HanSD;
     }
 }

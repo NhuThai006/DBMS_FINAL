@@ -54,170 +54,170 @@ GO
 -- ==========================================
 -- 3. NHẬP 20 ĐẦU SÁCH (Chia theo Ngôn ngữ và Loại bìa)
 -- ==========================================
-INSERT INTO Dausach VALUES ('ISB001', 'TS001', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB002', 'TS001', N'Tiếng Anh', N'Bìa cứng', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB003', 'TS002', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB004', 'TS003', N'Tiếng Việt', N'Bìa cứng', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB005', 'TS004', N'Tiếng Anh', N'Bìa cứng', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB006', 'TS004', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB007', 'TS005', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB008', 'TS006', N'Tiếng Anh', N'Bìa cứng', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB009', 'TS007', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB010', 'TS008', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB011', 'TS009', N'Tiếng Anh', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB012', 'TS010', N'Tiếng Việt', N'Bìa cứng', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB013', 'TS011', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB014', 'TS012', N'Tiếng Việt', N'Bìa cứng', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB015', 'TS013', N'Tiếng Anh', N'Bìa cứng', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB016', 'TS013', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB017', 'TS014', N'Tiếng Anh', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB018', 'TS014', N'Tiếng Việt', N'Bìa cứng', N'Tạm ngưng');
-INSERT INTO Dausach VALUES ('ISB019', 'TS015', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
-INSERT INTO Dausach VALUES ('ISB020', 'TS015', N'Tiếng Anh', N'Bìa cứng', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN001', 'TS001', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN002', 'TS001', N'Tiếng Anh', N'Bìa cứng', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN003', 'TS002', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN004', 'TS003', N'Tiếng Việt', N'Bìa cứng', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN005', 'TS004', N'Tiếng Anh', N'Bìa cứng', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN006', 'TS004', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN007', 'TS005', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN008', 'TS006', N'Tiếng Anh', N'Bìa cứng', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN009', 'TS007', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN010', 'TS008', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN011', 'TS009', N'Tiếng Anh', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN012', 'TS010', N'Tiếng Việt', N'Bìa cứng', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN013', 'TS011', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN014', 'TS012', N'Tiếng Việt', N'Bìa cứng', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN015', 'TS013', N'Tiếng Anh', N'Bìa cứng', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN016', 'TS013', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN017', 'TS014', N'Tiếng Anh', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN018', 'TS014', N'Tiếng Việt', N'Bìa cứng', N'Tạm ngưng');
+INSERT INTO Dausach VALUES ('ISBN019', 'TS015', N'Tiếng Việt', N'Bìa mềm', N'Đang lưu hành');
+INSERT INTO Dausach VALUES ('ISBN020', 'TS015', N'Tiếng Anh', N'Bìa cứng', N'Đang lưu hành');
 GO
 
 -- ==========================================
 -- 4. NHẬP 100 CUỐN SÁCH VẬT LÝ (CS001 -> CS100)
 -- ==========================================
--- ISB001 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB001', 'CS001', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB001', 'CS002', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB001', 'CS003', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB001', 'CS004', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB001', 'CS005', 'da muon');
+-- ISBN001 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN001', 'CS001', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN001', 'CS002', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN001', 'CS003', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN001', 'CS004', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN001', 'CS005', 'da muon');
 
--- ISB002 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB002', 'CS006', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB002', 'CS007', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB002', 'CS008', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB002', 'CS009', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB002', 'CS010', 'chua muon');
+-- ISBN002 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN002', 'CS006', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN002', 'CS007', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN002', 'CS008', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN002', 'CS009', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN002', 'CS010', 'chua muon');
 
--- ISB003 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB003', 'CS011', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB003', 'CS012', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB003', 'CS013', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB003', 'CS014', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB003', 'CS015', 'chua muon');
+-- ISBN003 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN003', 'CS011', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN003', 'CS012', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN003', 'CS013', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN003', 'CS014', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN003', 'CS015', 'chua muon');
 
--- ISB004 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB004', 'CS016', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB004', 'CS017', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB004', 'CS018', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB004', 'CS019', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB004', 'CS020', 'da muon');
+-- ISBN004 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN004', 'CS016', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN004', 'CS017', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN004', 'CS018', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN004', 'CS019', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN004', 'CS020', 'da muon');
 
--- ISB005 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB005', 'CS021', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB005', 'CS022', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB005', 'CS023', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB005', 'CS024', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB005', 'CS025', 'chua muon');
+-- ISBN005 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN005', 'CS021', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN005', 'CS022', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN005', 'CS023', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN005', 'CS024', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN005', 'CS025', 'chua muon');
 
--- ISB006 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB006', 'CS026', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB006', 'CS027', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB006', 'CS028', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB006', 'CS029', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB006', 'CS030', 'da muon');
+-- ISBN006 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN006', 'CS026', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN006', 'CS027', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN006', 'CS028', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN006', 'CS029', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN006', 'CS030', 'da muon');
 
--- ISB007 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB007', 'CS031', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB007', 'CS032', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB007', 'CS033', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB007', 'CS034', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB007', 'CS035', 'chua muon');
+-- ISBN007 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN007', 'CS031', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN007', 'CS032', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN007', 'CS033', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN007', 'CS034', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN007', 'CS035', 'chua muon');
 
--- ISB008 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB008', 'CS036', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB008', 'CS037', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB008', 'CS038', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB008', 'CS039', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB008', 'CS040', 'chua muon');
+-- ISBN008 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN008', 'CS036', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN008', 'CS037', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN008', 'CS038', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN008', 'CS039', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN008', 'CS040', 'chua muon');
 
--- ISB009 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB009', 'CS041', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB009', 'CS042', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB009', 'CS043', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB009', 'CS044', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB009', 'CS045', 'chua muon');
+-- ISBN009 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN009', 'CS041', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN009', 'CS042', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN009', 'CS043', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN009', 'CS044', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN009', 'CS045', 'chua muon');
 
--- ISB010 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB010', 'CS046', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB010', 'CS047', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB010', 'CS048', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB010', 'CS049', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB010', 'CS050', 'da muon');
+-- ISBN010 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN010', 'CS046', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN010', 'CS047', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN010', 'CS048', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN010', 'CS049', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN010', 'CS050', 'da muon');
 
--- ISB011 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB011', 'CS051', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB011', 'CS052', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB011', 'CS053', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB011', 'CS054', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB011', 'CS055', 'chua muon');
+-- ISBN011 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN011', 'CS051', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN011', 'CS052', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN011', 'CS053', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN011', 'CS054', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN011', 'CS055', 'chua muon');
 
--- ISB012 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB012', 'CS056', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB012', 'CS057', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB012', 'CS058', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB012', 'CS059', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB012', 'CS060', 'da muon');
+-- ISBN012 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN012', 'CS056', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN012', 'CS057', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN012', 'CS058', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN012', 'CS059', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN012', 'CS060', 'da muon');
 
--- ISB013 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB013', 'CS061', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB013', 'CS062', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB013', 'CS063', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB013', 'CS064', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB013', 'CS065', 'chua muon');
+-- ISBN013 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN013', 'CS061', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN013', 'CS062', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN013', 'CS063', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN013', 'CS064', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN013', 'CS065', 'chua muon');
 
--- ISB014 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB014', 'CS066', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB014', 'CS067', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB014', 'CS068', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB014', 'CS069', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB014', 'CS070', 'da muon');
+-- ISBN014 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN014', 'CS066', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN014', 'CS067', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN014', 'CS068', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN014', 'CS069', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN014', 'CS070', 'da muon');
 
--- ISB015 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB015', 'CS071', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB015', 'CS072', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB015', 'CS073', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB015', 'CS074', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB015', 'CS075', 'chua muon');
+-- ISBN015 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN015', 'CS071', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN015', 'CS072', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN015', 'CS073', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN015', 'CS074', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN015', 'CS075', 'chua muon');
 
--- ISB016 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB016', 'CS076', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB016', 'CS077', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB016', 'CS078', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB016', 'CS079', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB016', 'CS080', 'da muon');
+-- ISBN016 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN016', 'CS076', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN016', 'CS077', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN016', 'CS078', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN016', 'CS079', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN016', 'CS080', 'da muon');
 
--- ISB017 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB017', 'CS081', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB017', 'CS082', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB017', 'CS083', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB017', 'CS084', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB017', 'CS085', 'chua muon');
+-- ISBN017 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN017', 'CS081', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN017', 'CS082', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN017', 'CS083', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN017', 'CS084', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN017', 'CS085', 'chua muon');
 
--- ISB018 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB018', 'CS086', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB018', 'CS087', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB018', 'CS088', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB018', 'CS089', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB018', 'CS090', 'da muon');
+-- ISBN018 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN018', 'CS086', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN018', 'CS087', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN018', 'CS088', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN018', 'CS089', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN018', 'CS090', 'da muon');
 
--- ISB019 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB019', 'CS091', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB019', 'CS092', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB019', 'CS093', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB019', 'CS094', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB019', 'CS095', 'chua muon');
+-- ISBN019 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN019', 'CS091', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN019', 'CS092', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN019', 'CS093', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN019', 'CS094', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN019', 'CS095', 'chua muon');
 
--- ISB020 (5 cuốn)
-INSERT INTO Cuonsach VALUES ('ISB020', 'CS096', 'da muon');
-INSERT INTO Cuonsach VALUES ('ISB020', 'CS097', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB020', 'CS098', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB020', 'CS099', 'chua muon');
-INSERT INTO Cuonsach VALUES ('ISB020', 'CS100', 'da muon');
+-- ISBN020 (5 cuốn)
+INSERT INTO Cuonsach VALUES ('ISBN020', 'CS096', 'da muon');
+INSERT INTO Cuonsach VALUES ('ISBN020', 'CS097', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN020', 'CS098', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN020', 'CS099', 'chua muon');
+INSERT INTO Cuonsach VALUES ('ISBN020', 'CS100', 'da muon');
 GO
 
 
@@ -232,7 +232,7 @@ DROP TABLE IF EXISTS DocGia;
 GO
 
 CREATE TABLE DocGia (
-    ma_DocGia INT PRIMARY KEY,
+    ma_DocGia VARCHAR(10) PRIMARY KEY,
     ho NVARCHAR(50),
     tenlot NVARCHAR(50),
     ten NVARCHAR(50),
@@ -240,7 +240,7 @@ CREATE TABLE DocGia (
 );
 
 CREATE TABLE Nguoilon (
-    ma_DocGia INT PRIMARY KEY,
+    ma_DocGia VARCHAR(10) PRIMARY KEY,
     sonha NVARCHAR(50),
     duong NVARCHAR(100),
     quan NVARCHAR(50),
@@ -250,15 +250,15 @@ CREATE TABLE Nguoilon (
 );
 
 CREATE TABLE Treem (
-    ma_DocGia INT PRIMARY KEY,
-    ma_DocGia_nguoilon INT,
+    ma_DocGia VARCHAR(10) PRIMARY KEY,
+    ma_DocGia_nguoilon VARCHAR(10),
     FOREIGN KEY (ma_DocGia) REFERENCES DocGia(ma_DocGia),
     FOREIGN KEY (ma_DocGia_nguoilon) REFERENCES Nguoilon(ma_DocGia)
 );
 
 CREATE TABLE DangKy (
     isbn VARCHAR(20),
-    ma_DocGia INT,
+    ma_DocGia VARCHAR(10),
     ngay_dk DATE,
     ghichu NVARCHAR(255),
     PRIMARY KEY (isbn, ma_DocGia),
@@ -269,20 +269,20 @@ CREATE TABLE DangKy (
 CREATE TABLE Muon (
     isbn VARCHAR(20),
     ma_cuonsach VARCHAR(20), 
-    ma_DocGia INT,
+    ma_DocGia VARCHAR(10),
     ngay_muon DATE,
     ngay_hethan DATE,
     PRIMARY KEY (isbn, ma_cuonsach),
+    FOREIGN KEY (isbn) REFERENCES Dausach(isbn),         -- Thêm FK còn thiếu
     FOREIGN KEY (ma_cuonsach) REFERENCES Cuonsach(ma_cuonsach), 
     FOREIGN KEY (ma_DocGia) REFERENCES DocGia(ma_DocGia)
 );
 
--- Đã sửa: Khóa ngoại trỏ đúng vào 'ma_cuonsach'
 CREATE TABLE QuaTrinhMuon (
     isbn VARCHAR(20),
     ma_cuonsach VARCHAR(20), 
     ngay_muon DATE,
-    ma_DocGia INT,
+    ma_DocGia VARCHAR(10),
     ngay_hethan DATE,
     ngay_tra DATE,
     tien_muon DECIMAL(18, 2),
@@ -290,89 +290,107 @@ CREATE TABLE QuaTrinhMuon (
     tien_datcoc DECIMAL(18, 2),
     ghichu NVARCHAR(255),
     PRIMARY KEY (isbn, ma_cuonsach, ngay_muon),
+    FOREIGN KEY (isbn) REFERENCES Dausach(isbn),         -- Thêm FK còn thiếu
     FOREIGN KEY (ma_cuonsach) REFERENCES Cuonsach(ma_cuonsach), 
     FOREIGN KEY (ma_DocGia) REFERENCES DocGia(ma_DocGia)
 );
 GO
 
 INSERT INTO DocGia (ma_DocGia, ho, tenlot, ten, ngaysinh) VALUES
-(1,  N'Nguyễn', N'Văn',      N'An',      '1985-03-15'),
-(2,  N'Trần',   N'Thị',      N'Bình',    '1990-07-22'),
-(3,  N'Lê',     N'Hoàng',    N'Cường',   '1978-11-05'),
-(4,  N'Phạm',   N'Thị',      N'Dung',    '1995-01-30'),
-(5,  N'Hoàng',  N'Minh',     N'Đức',     '1988-06-14'),
-(6,  N'Vũ',     N'Thị',      N'Hà',      '1992-09-08'),
-(7,  N'Đặng',   N'Quốc',     N'Hùng',    '1983-04-27'),
-(8,  N'Bùi',    N'Thị',      N'Lan',     '1997-12-03'),
-(9,  N'Đỗ',     N'Văn',      N'Minh',    '1975-08-19'),
-(10, N'Ngô',    N'Thị',      N'Ngọc',    '1993-02-11'),
-(11, N'Dương',  N'Thanh',    N'Phong',   '1986-05-25'),
-(12, N'Lý',     N'Thị',      N'Quỳnh',   '1999-10-17'),
-(13, N'Trịnh',  N'Văn',      N'Sơn',     '1980-07-09'),
+('NL001', N'Nguyễn', N'Văn',      N'An',      '1985-03-15'),
+('NL002', N'Trần',   N'Thị',      N'Bình',    '1990-07-22'),
+('NL003', N'Lê',     N'Hoàng',    N'Cường',   '1978-11-05'),
+('NL004', N'Phạm',   N'Thị',      N'Dung',    '1995-01-30'),
+('NL005', N'Hoàng',  N'Minh',     N'Đức',     '1988-06-14'),
+('NL006', N'Vũ',     N'Thị',      N'Hà',      '1992-09-08'),
+('NL007', N'Đặng',   N'Quốc',     N'Hùng',    '1983-04-27'),
+('NL008', N'Bùi',    N'Thị',      N'Lan',     '1997-12-03'),
+('NL009', N'Đỗ',     N'Văn',      N'Minh',    '1975-08-19'),
+('NL010', N'Ngô',    N'Thị',      N'Ngọc',    '1993-02-11'),
+('NL011', N'Dương',  N'Thanh',    N'Phong',   '1986-05-25'),
+('NL012', N'Lý',     N'Thị',      N'Quỳnh',   '1999-10-17'),
+('NL013', N'Trịnh',  N'Văn',      N'Sơn',     '1980-07-09'),
 --Trẻ em
-(14, N'Nguyễn', N'Thị',      N'Thảo',    '2012-03-20'),
-(15, N'Trần',   N'Văn',      N'Tú',      '2010-08-15'),
-(16, N'Lê',     N'Thị',      N'Uyên',    '2014-11-02'),
-(17, N'Phạm',   N'Minh',     N'Việt',    '2011-05-30'),
-(18, N'Hoàng',  N'Thị',      N'Xuân',    '2013-01-25'),
-(19, N'Vũ',     N'Văn',      N'Yên',     '2015-09-10'),
-(20, N'Đặng',   N'Thị',      N'Zara',    '2009-04-18');
+('TE001', N'Nguyễn', N'Thị',      N'Thảo',    '2012-03-20'),
+('TE002', N'Trần',   N'Văn',      N'Tú',      '2010-08-15'),
+('TE003', N'Lê',     N'Thị',      N'Uyên',    '2014-11-02'),
+('TE004', N'Phạm',   N'Minh',     N'Việt',    '2011-05-30'),
+('TE005', N'Hoàng',  N'Thị',      N'Xuân',    '2013-01-25'),
+('TE006', N'Vũ',     N'Văn',      N'Yên',     '2015-09-10'),
+('TE007', N'Đặng',   N'Thị',      N'Zara',    '2009-04-18');
 GO
  
 INSERT INTO Nguoilon (ma_DocGia, sonha, duong, quan, dienthoai, han_sd) VALUES
-(1,  N'12',  N'Nguyễn Huệ',      N'Quận 1',   '0901234561', '2027-03-15'),
-(2,  N'45',  N'Lê Lợi',          N'Quận 1',   '0912345672', '2026-07-22'),
-(3,  N'78',  N'Trần Hưng Đạo',   N'Quận 5',   '0923456783', '2028-11-05'),
-(4,  N'23',  N'Đinh Tiên Hoàng', N'Quận Bình Thạnh', '0934567894', '2027-01-30'),
-(5,  N'56',  N'Võ Thị Sáu',      N'Quận 3',   '0945678905', '2026-06-14'),
-(6,  N'89',  N'Nam Kỳ Khởi Nghĩa',N'Quận 3',  '0956789016', '2029-09-08'),
-(7,  N'34',  N'Cách Mạng Tháng 8',N'Quận 10',  '0967890127', '2027-04-27'),
-(8,  N'67',  N'Lý Thường Kiệt',  N'Quận 10',  '0978901238', '2026-12-03'),
-(9,  N'11',  N'Hai Bà Trưng',    N'Quận 1',   '0989012349', '2028-08-19'),
-(10, N'99',  N'Pasteur',         N'Quận 3',   '0990123450', '2027-02-11'),
-(11, N'42',  N'Nguyễn Đình Chiểu',N'Quận 3',  '0901234562', '2026-05-25'),
-(12, N'75',  N'Điện Biên Phủ',   N'Quận Bình Thạnh','0912345673','2029-10-17'),
-(13, N'18',  N'Lê Văn Sỹ',       N'Quận 3',   '0923456784', '2027-07-09');
+('NL001', N'12',  N'Nguyễn Huệ',      N'Quận 1',   '0901234561', '2027-03-15'),
+('NL002', N'45',  N'Lê Lợi',          N'Quận 1',   '0912345672', '2026-07-22'),
+('NL003', N'78',  N'Trần Hưng Đạo',   N'Quận 5',   '0923456783', '2028-11-05'),
+('NL004', N'23',  N'Đinh Tiên Hoàng', N'Quận Bình Thạnh', '0934567894', '2027-01-30'),
+('NL005', N'56',  N'Võ Thị Sáu',      N'Quận 3',   '0945678905', '2026-06-14'),
+('NL006', N'89',  N'Nam Kỳ Khởi Nghĩa',N'Quận 3',  '0956789016', '2029-09-08'),
+('NL007', N'34',  N'Cách Mạng Tháng 8',N'Quận 10',  '0967890127', '2027-04-27'),
+('NL008', N'67',  N'Lý Thường Kiệt',  N'Quận 10',  '0978901238', '2026-12-03'),
+('NL009', N'11',  N'Hai Bà Trưng',    N'Quận 1',   '0989012349', '2028-08-19'),
+('NL010', N'99',  N'Pasteur',         N'Quận 3',   '0990123450', '2027-02-11'),
+('NL011', N'42',  N'Nguyễn Đình Chiểu',N'Quận 3',  '0901234562', '2026-05-25'),
+('NL012', N'75',  N'Điện Biên Phủ',   N'Quận Bình Thạnh','0912345673','2029-10-17'),
+('NL013', N'18',  N'Lê Văn Sỹ',       N'Quận 3',   '0923456784', '2027-07-09');
 GO
  
 
 INSERT INTO Treem (ma_DocGia, ma_DocGia_nguoilon) VALUES
-(14, 1),
-(15, 2),
-(16, 3),
-(17, 4),
-(18, 5),
-(19, 6),
-(20, 7);
+('TE001', 'NL001'),
+('TE002', 'NL002'),
+('TE003', 'NL003'),
+('TE004', 'NL004'),
+('TE005', 'NL005'),
+('TE006', 'NL006'),
+('TE007', 'NL007');
 GO
  INSERT INTO DangKy (isbn, ma_DocGia, ngay_dk, ghichu) VALUES
-('ISB001', 1,  '2026-05-02', NULL),
-('ISB003', 3,  '2026-05-05', NULL),
-('ISB004', 5,  '2026-05-08', N'Ưu tiên sinh viên'),
-('ISB005', 7,  '2026-05-10', NULL),
-('ISB007', 14, '2026-05-13', N'Phụ huynh đã ký'),
-('ISB009', 9,  '2026-05-16', NULL),
-('ISB010', 2,  '2026-05-19', NULL),
-('ISB012', 4,  '2026-05-22', NULL),
-('ISB013', 16, '2026-05-25', NULL),
-('ISB014', 11, '2026-05-28', NULL),
-('ISB015', 6,  '2026-06-01', NULL),
-('ISB016', 18, '2026-06-03', N'Trẻ em cần người lớn ký'),
-('ISB019', 13, '2026-06-06', NULL),
-('ISB020', 8,  '2026-06-09', NULL),
-('ISB011', 20, '2026-06-11', N'Phụ huynh đã xác nhận');
+('ISBN001', 'NL001',  '2026-05-02', NULL),
+('ISBN003', 'NL003',  '2026-05-05', NULL),
+('ISBN004', 'NL005',  '2026-05-08', N'Ưu tiên sinh viên'),
+('ISBN005', 'NL007',  '2026-05-10', NULL),
+('ISBN007', 'TE001', '2026-05-13', N'Phụ huynh đã ký'),
+('ISBN009', 'NL009',  '2026-05-16', NULL),
+('ISBN010', 'NL002',  '2026-05-19', NULL),
+('ISBN012', 'NL004',  '2026-05-22', NULL),
+('ISBN013', 'TE003', '2026-05-25', NULL),
+('ISBN014', 'NL011', '2026-05-28', NULL),
+('ISBN015', 'NL006',  '2026-06-01', NULL),
+('ISBN016', 'TE005', '2026-06-03', N'Trẻ em cần người lớn ký'),
+('ISBN019', 'NL013', '2026-06-06', NULL),
+('ISBN020', 'NL008',  '2026-06-09', NULL),
+('ISBN011', 'TE007', '2026-06-11', N'Phụ huynh đã xác nhận');
 GO
  
 
 INSERT INTO Muon (isbn, ma_cuonsach, ma_DocGia, ngay_muon, ngay_hethan) VALUES
-('ISB001', 'CS002', 2,  '2026-04-01', '2026-05-16'),
-('ISB001', 'CS005', 10, '2026-06-03', '2026-06-24'),
-('ISB003', 'CS012', 6,  '2026-06-05', '2026-06-26'),
-('ISB004', 'CS016', 12, '2026-05-08', '2026-05-27'),
-('ISB006', 'CS026', 15, '2026-06-07', '2026-06-28'),  
-('ISB008', 'CS036', 1,  '2026-03-28', '2026-04-14'),  
-('ISB010', 'CS047', 5,  '2026-06-08', '2026-06-29'),
-('ISB016', 'CS076', 17, '2026-06-10', '2026-07-01');  
+-- Dữ liệu cũ giữ lại
+('ISBN001', 'CS002', 'NL002',  '2026-04-01', '2026-05-16'),
+('ISBN001', 'CS005', 'NL010', '2026-06-03', '2026-06-24'),
+('ISBN003', 'CS012', 'NL006',  '2026-06-05', '2026-06-26'),
+('ISBN004', 'CS016', 'NL012', '2026-05-08', '2026-05-27'),
+('ISBN008', 'CS036', 'NL001',  '2026-03-28', '2026-04-14'),
+('ISBN010', 'CS047', 'NL005',  '2026-06-08', '2026-06-29'),
+
+-- ============================
+-- 4 CẶP NGƯỜI LỚN + TRẺ EM CÙNG MƯỢN
+-- ============================
+
+-- Cặp 1: NL002 (đã có) + TE002 (bảo lãnh bởi NL002)
+('ISBN006', 'CS026', 'TE002', '2026-06-07', '2026-06-28'),
+
+-- Cặp 2: NL004 + TE004 (bảo lãnh bởi NL004)
+('ISBN003', 'CS013', 'NL004', '2026-06-10', '2026-07-01'),
+('ISBN016', 'CS076', 'TE004', '2026-06-10', '2026-07-01'),
+
+-- Cặp 3: NL005 (đã có CS047) + TE005 (bảo lãnh bởi NL005)
+('ISBN012', 'CS057', 'TE005', '2026-06-11', '2026-07-02'),
+
+-- Cặp 4: NL003 + TE003 (bảo lãnh bởi NL003)
+('ISBN013', 'CS062', 'NL003', '2026-06-12', '2026-07-03'),
+('ISBN014', 'CS068', 'TE003', '2026-06-12', '2026-07-03');
 GO
  
 INSERT INTO QuaTrinhMuon
@@ -380,26 +398,26 @@ INSERT INTO QuaTrinhMuon
      tien_muon, tien_datra, tien_datcoc, ghichu)
 VALUES
 -- Trả đúng hạn
-('ISB001', 'CS003', '2026-01-05', 1,  '2026-01-26', '2026-01-20', 5000, 5000,  20000, NULL),
-('ISB002', 'CS006', '2026-01-10', 3,  '2026-01-31', '2026-01-28', 5000, 5000,  20000, NULL),
-('ISB003', 'CS011', '2026-02-01', 5,  '2026-02-22', '2026-02-18', 5000, 5000,  20000, NULL),
-('ISB004', 'CS017', '2026-02-10', 7,  '2026-03-03', '2026-02-27', 5000, 5000,  20000, NULL),
-('ISB005', 'CS021', '2026-02-15', 14, '2026-03-08', '2026-03-04', 5000, 5000,  20000, N'Trẻ em mượn'),
-('ISB006', 'CS027', '2026-03-01', 9,  '2026-03-22', '2026-03-19', 5000, 5000,  20000, NULL),
-('ISB007', 'CS031', '2026-03-05', 11, '2026-03-26', '2026-03-21', 5000, 5000,  20000, NULL),
-('ISB009', 'CS041', '2026-03-10', 2,  '2026-03-31', '2026-03-28', 5000, 5000,  20000, NULL),
-('ISB010', 'CS046', '2026-03-15', 16, '2026-04-05', '2026-04-01', 5000, 5000,  20000, N'Trẻ em mượn'),
-('ISB012', 'CS056', '2026-04-01', 4,  '2026-04-22', '2026-04-19', 5000, 5000,  20000, NULL),
+('ISBN001', 'CS003', '2026-01-05', 'NL001',  '2026-01-26', '2026-01-20', 5000, 5000,  20000, NULL),
+('ISBN002', 'CS006', '2026-01-10', 'NL003',  '2026-01-31', '2026-01-28', 5000, 5000,  20000, NULL),
+('ISBN003', 'CS011', '2026-02-01', 'NL005',  '2026-02-22', '2026-02-18', 5000, 5000,  20000, NULL),
+('ISBN004', 'CS017', '2026-02-10', 'NL007',  '2026-03-03', '2026-02-27', 5000, 5000,  20000, NULL),
+('ISBN005', 'CS021', '2026-02-15', 'TE001', '2026-03-08', '2026-03-04', 5000, 5000,  20000, N'Trẻ em mượn'),
+('ISBN006', 'CS027', '2026-03-01', 'NL009',  '2026-03-22', '2026-03-19', 5000, 5000,  20000, NULL),
+('ISBN007', 'CS031', '2026-03-05', 'NL011', '2026-03-26', '2026-03-21', 5000, 5000,  20000, NULL),
+('ISBN009', 'CS041', '2026-03-10', 'NL002',  '2026-03-31', '2026-03-28', 5000, 5000,  20000, NULL),
+('ISBN010', 'CS046', '2026-03-15', 'TE003', '2026-04-05', '2026-04-01', 5000, 5000,  20000, N'Trẻ em mượn'),
+('ISBN012', 'CS056', '2026-04-01', 'NL004',  '2026-04-22', '2026-04-19', 5000, 5000,  20000, NULL),
 -- Trả trễ hạn (có phí phạt, 1500đ/ngày)
-('ISB013', 'CS061', '2026-04-05', 6,  '2026-04-26', '2026-05-03', 5000, 15500, 20000, N'Trả trễ 7 ngày'),
-('ISB014', 'CS066', '2026-04-10', 8,  '2026-05-01', '2026-05-10', 5000, 18500, 20000, N'Trả trễ 9 ngày'),
-('ISB015', 'CS071', '2026-04-15', 18, '2026-05-06', '2026-05-15', 5000, 18500, 20000, N'Trả trễ 9 ngày - trẻ em'),
-('ISB017', 'CS081', '2026-05-01', 10, '2026-05-22', '2026-06-02', 5000, 21500, 20000, N'Trả trễ 11 ngày'),
-('ISB019', 'CS091', '2026-05-05', 20, '2026-05-26', '2026-06-05', 5000, 20000, 20000, N'Trả trễ 10 ngày - trẻ em'),
+('ISBN013', 'CS061', '2026-04-05', 'NL006',  '2026-04-26', '2026-05-03', 5000, 15500, 20000, N'Trả trễ 7 ngày'),
+('ISBN014', 'CS066', '2026-04-10', 'NL008',  '2026-05-01', '2026-05-10', 5000, 18500, 20000, N'Trả trễ 9 ngày'),
+('ISBN015', 'CS071', '2026-04-15', 'TE005', '2026-05-06', '2026-05-15', 5000, 18500, 20000, N'Trả trễ 9 ngày - trẻ em'),
+('ISBN017', 'CS081', '2026-05-01', 'NL010', '2026-05-22', '2026-06-02', 5000, 21500, 20000, N'Trả trễ 11 ngày'),
+('ISBN019', 'CS091', '2026-05-05', 'TE007', '2026-05-26', '2026-06-05', 5000, 20000, 20000, N'Trả trễ 10 ngày - trẻ em'),
 -- Thêm lượt đa dạng
-('ISB008', 'CS037', '2026-01-20', 12, '2026-02-10', '2026-02-07', 5000, 5000,  20000, NULL),
-('ISB011', 'CS051', '2026-02-20', 13, '2026-03-13', '2026-03-10', 5000, 5000,  20000, NULL),
-('ISB016', 'CS077', '2026-03-20', 19, '2026-04-10', '2026-04-08', 5000, 5000,  20000, N'Trẻ em mượn'),
-('ISB018', 'CS086', '2026-04-20', 4,  '2026-05-11', '2026-05-09', 5000, 5000,  20000, NULL),
-('ISB020', 'CS096', '2026-05-10', 17, '2026-05-31', '2026-06-04', 5000, 11500, 20000, N'Trả trễ 4 ngày - trẻ em');
+('ISBN008', 'CS037', '2026-01-20', 'NL012', '2026-02-10', '2026-02-07', 5000, 5000,  20000, NULL),
+('ISBN011', 'CS051', '2026-02-20', 'NL013', '2026-03-13', '2026-03-10', 5000, 5000,  20000, NULL),
+('ISBN016', 'CS077', '2026-03-20', 'TE006', '2026-04-10', '2026-04-08', 5000, 5000,  20000, N'Trẻ em mượn'),
+('ISBN018', 'CS086', '2026-04-20', 'NL004',  '2026-05-11', '2026-05-09', 5000, 5000,  20000, NULL),
+('ISBN020', 'CS096', '2026-05-10', 'TE004', '2026-05-31', '2026-06-04', 5000, 11500, 20000, N'Trả trễ 4 ngày - trẻ em');
 GO

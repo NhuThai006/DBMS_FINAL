@@ -73,7 +73,7 @@ namespace DBMS_final
             this.txtISBN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtISBN.Name = "txtISBN";
             this.txtISBN.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
-            this.txtISBN.PlaceholderText = "Ví dụ: ISB001";
+            this.txtISBN.PlaceholderText = "Ví dụ: ISBN001";
             this.txtISBN.SelectedText = "";
             this.txtISBN.Size = new System.Drawing.Size(420, 46);
             this.txtISBN.TabIndex = 1;

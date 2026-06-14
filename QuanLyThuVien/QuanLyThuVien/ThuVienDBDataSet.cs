@@ -22,15 +22,27 @@ namespace QuanLyThuVien
 
     partial class ThuVienDBDataSet
     {
-        partial class sp_ThongTinDauSachDataTable
+        partial class NLBaoLanhDataTable
+        {
+        }
+
+        partial class ThongTinDGDataTable
+        {
+        }
+
+        partial class TTDauSachDataTable
         {
         }
     }
 }
 
-namespace QuanLyThuVien.ThuVienDBDataSetTableAdapters {
-    
-    
-    public partial class sp_ThongTinDauSachTableAdapter {
+namespace QuanLyThuVien.ThuVienDBDataSetTableAdapters
+{
+    partial class TA_NLBaoLanh
+    {
+    }
+
+    public partial class TA_TTDauSach
+    {
     }
 }

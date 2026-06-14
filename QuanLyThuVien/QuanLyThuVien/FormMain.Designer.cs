@@ -105,7 +105,7 @@
             this.btnBai4.Name = "btnBai4";
             this.btnBai4.Size = new System.Drawing.Size(235, 45);
             this.btnBai4.TabIndex = 4;
-            this.btnBai4.Text = "Bài 4: Thủ tục TV (a-e)";
+            this.btnBai4.Text = "Bài 4: Procedure Thư Viện";
             this.btnBai4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnBai4.TextOffset = new System.Drawing.Point(10, 0);
             // 
